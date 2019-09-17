@@ -1,0 +1,447 @@
+*{
+
+    font-family:  Segoe UI Symbol, meiryo ui, Segoe UI ;
+}
+
+.writebox{
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.flexa{
+    display: flex;
+    margin-top: 50px;
+}
+
+.name-body{
+    margin-top: 10px;
+}
+
+section
+{
+    background-color: bisque;
+    /*margin: 10px;*/
+    padding:  5px 50px;
+    border-radius: 2px;
+}
+
+#instructions{
+	color: orange;
+    /*text-shadow: 0px 0px 1px orange;*/
+}
+
+#phnnumbers{
+
+
+	padding: 5px;
+	border: 1px lightgreen solid;
+	margin: 10px 0px ;
+}
+
+#rotated-div
+{
+    margin-top: -50px;
+    transform: skewY(2deg);
+    background-color: white;
+    opacity: 1;
+    height: 130px;
+    border-bottom: 2px black solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#anti-rotated-div
+{
+    padding-top: 50px;
+    transform: skewY(-2deg);
+}
+
+
+.projComp
+{
+	border: none;
+    background-color: green;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px black;
+    /*rgba(0, 0, 0, 0.2);*/
+}
+
+
+
+
+
+
+
+.main-tasks{
+
+/*background-color: black;*/
+    margin-top: 80px;
+}
+
+
+.components
+{
+display: flex;
+max-width: 650px;
+margin: 10px auto 80px;
+
+}
+
+#heading
+{
+    max-width: 630px;
+    margin: 10px auto 10px auto;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+.aboutSection
+{
+    padding: 10px 0px 30px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 30px black;
+    transform: skewY(2deg);
+    margin-bottom: 60px;
+    /*border-top: 2px green solid; */
+}
+
+.footerparts{
+    width: 320px;
+    border: 3px white solid;
+}
+
+.footing{
+    box-shadow: 1px 1px 30px black;
+    background: darkgreen;
+    padding: 10px 60px;
+    display: flex;
+}
+
+.no-skew
+{
+    transform: skewY(-2deg);
+}
+
+.lowest{
+    border-top: 2px white solid;
+    background: black;
+    padding: 20px 50px;
+    opacity: 0.9; 
+}
+
+.donation
+{
+border-right: 3px lightgreen solid;
+
+    margin: 20px 10px;
+    padding: 10px;
+    width: 500px;
+    /*margin: 0px 0px 0px 0px;*/
+}
+
+.comment{
+
+    margin: 20px 10px;
+    padding: 10px;
+}
+#comment{
+
+    background-color: lightgray;
+    width: 600px;
+    height: 150px;
+}
+
+#title
+{
+    color: white;
+margin-top: 130px;
+font-size: 23px;
+}
+
+.donate-btn
+{
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    padding: 12px;
+    margin: 0px 0px 70px 900px;
+    max-width:300px;
+
+}
+
+.devbox
+{
+    border: 1px white solid;
+    margin: 5px;
+    padding: 5px;
+    max-width: 600px;
+}
+
+.devflex
+{
+max-width: 900px;
+display: flex;
+margin: 0px auto;
+}
+
+
+.about{margin-right: 50px }
+
+.devstats{
+    max-width: 300px;
+    padding: 10px 10px;
+}
+ 
+ .mzirochippic{
+    border-radius: 60%;
+    width: 50px; 
+    border: 2px green solid;
+}
+ .descDiv
+ {
+ 	padding-top: 10px;
+ }
+
+ #dictWord, #translato, #lilDescr, #useofWord, #relatedWords
+ {
+ 	margin-left: 40px;
+ }
+
+#devpic
+{
+    width: 200px;
+}
+#wordtype
+{
+	margin: 5px 0px;
+}
+
+
+
+#close{
+	border-radius: 100%;
+	width: 10px;
+	background-image: url("./components/Body/InsidetheMajor/img/close.png");
+	background-size: 20px;
+	border: 1px black solid;
+	margin: 2px;
+}
+.totem-btn
+{
+	padding: 1px;
+    background: none;
+    border: none;
+    width: 80px;
+    height: 70px;
+}
+
+
+#inputbox,#inputboxdict{
+    height: 30px;
+    background-color: lightgray;
+}
+
+.totems{
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    height: 5px;
+     width: 5px; 
+}
+
+
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    border-radius: 20px;
+    background-color: green;
+}
+
+
+#inputing
+{
+font-size: 10px;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+
+h1{font-size: 25px;}
+h2{font-size: 20px;}
+h3{font-size: 15px; color: white}
+h4{ padding: 0; margin: 0; font-size: 12px; }
+
+.col-lg-5{
+    padding: 0;
+    
+}
+.form-control
+{
+    border-radius: 10px;
+    margin: 5px 0px;
+
+}
+.names-widget{
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+
+body{
+    background-image: url("./components/Body/InsidetheMajor/img/nsenene.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.nav-link{
+    color: green;
+}
+
+.item
+{
+background-color: green;
+    padding: 5px 10px;
+    border-radius: 60px;
+    margin: 2px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#logo
+{
+    margin-left: 40px
+}
+
+#adboard
+{
+    background-color: white;
+}
+
+.lineup{display: flex;}
+
+.card-body
+{
+    background: white;
+    width: 250px ;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shortlists{
+background-color: #ffffff;
+height: 100px;
+overflow: scroll;
+    }
+
+
+.cardheader
+{
+    display: flex;
+}
+
+.no-padding{
+    padding: 0;
+    margin: 0;
+    align-content: flex-start;
+}
+.cardimg 
+{
+    transform: rotate(-7deg);
+    margin: 5px 0px 0px 10px;
+    width: 255px;
+}
+.akabiroimg
+{
+    transform: rotate(0deg);
+    width: 70px;
+    margin: -25px 0px 0px 150px;
+    border-radius: 90%;
+    border: 2px white solid;
+}
+.card-data{
+margin: 15px 0px 0px 0px;
+overflow: scroll;
+}
+
+#nam{
+    padding: 0;
+    margin: 0
+    ;
+    
+}
+
+.imgDiv{
+    margin-top: -70px;
+    margin-left: -30px;
+    width: 300px;
+    height: 210px;
+    transform: rotate(7deg);
+    overflow: hidden;
+}
+
+#akabiro{
+    width: 60px;
+
+    margin: -30px 0px 0px 85px;
+}
+
+
+#ebirala
+{
+    margin: 0px 0px 0px 100px;
+    padding: 0;
+}
+
+
+.tabs{
+  background-color: white;
+
+
+}
+
+.tab-list {
+	margin: 0px 145px 0px 145px ;
+  padding-left: 0;
+}
+
+.tab-list-item {
+    background: none;
+    border: none;
+  display: inline-block;
+  list-style: none;
+  padding: 0.5rem 0.75rem;
+
+}
+
+.tab-list-active {
+    
+  border-bottom: 3px green solid;
+}
+
+.tab-content
+{
+    background-color: #ffffff;
+}
