@@ -15,21 +15,20 @@ class App extends React.Component
     super(props);
     this.state ={}
   }
-
+  
   render (){
 return <div >
 <Navigation />
 
 
 <Major/> 
-
 <div className="container main-tasks" >
 <h3 id="heading">Emirimu gyaffe</h3>
 <div className="components">
 <ProjComponent title="Amannya ne'emiziro" />
 <ProjComponent title="Dikisonale yo luganda" />
 </div>
-<button className="donate-btn">Siima byetukola</button>
+<button className="donate-btn" onClick={this.onClickDonation}>Siima byetukola</button>
 </div>
 <About/>
 <Donation/>

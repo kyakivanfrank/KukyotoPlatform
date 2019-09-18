@@ -4,10 +4,8 @@ import Names from "./Names";
 import InputBox from "../InputBox";
 import Shortlists from "../Shortlists";
 import Totems from "../TotemEngine/Totems";
-
 import datalist from "../datalist";
 import ShortlistedDcard from '../ShortlistedDcard';
-// import ViewWindow from '../ViewWindow';
 
 class NameEngine extends React.Component{
 
@@ -27,8 +25,6 @@ class NameEngine extends React.Component{
         this.setState( { favorites : favList } ) // shortlisting favorite items
          }
     render(){
-
-        // console.log(this.addkeys)
 
 return(   
 <section className="names-widget">

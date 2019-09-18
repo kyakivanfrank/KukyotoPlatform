@@ -1,42 +1,35 @@
 import React from 'react';
 
-
 import { input } from 'reactstrap';
-
 class Inputbox extends React.Component {
-  
   constructor(props){
     super(props);
-
     this.state = {
       keystrokes: ''
-    }
-  }
+    }}
 
   onChange=(e)=> {
     this.setState({ keystrokes: e.target.value })
-setTimeout(() => {
-this.onSubmit(e);
-}, 100);
+  setTimeout(() => { this.onSubmit(e);
+  }, 50);
 }
-
-
   onSubmit=(e)=>{
     this.props.addkeys(this.state.keystrokes);
   };
-  
   render (){
-
     console.log(this.state.keystrokes)
+      // onSubmit={this.onSubmit} // this is a form prop
+      // value = {this.state.keystrokes} // this is an input prop
 
     return (
       <div>
-      <form onSubmit={this.onSubmit}><input id="inputbox" className="form-control"  addkeys={this.state.keystrokes}  type="text"
-      value = {this.state.keystrokes} onChange = {this.onChange}/>
+      <form >
+      <input id="inputbox" className="form-control"
+       addkeys={this.state.keystrokes} 
+       type="text"
+      onChange = {this.onChange}/>
       </form>
       </div>
     );
-  }
-
-  }
+  }}
 export default Inputbox;

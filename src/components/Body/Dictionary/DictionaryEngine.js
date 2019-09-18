@@ -1,5 +1,5 @@
 import React from "react";
-import InputBoxDictionary from "../InsidetheMajor/InputBoxDictionary";
+import InputBox from "../InsidetheMajor/InputBox";
 import Words from "./Words";
 import DescriptionView from "./DescriptionView";
 import wordarchive from "./wordarchive";
@@ -34,11 +34,11 @@ render(){
 
     // console.log(this.addkeys)
     return (<section className="names-widget">
-        <InputBoxDictionary  addkeys={this.addkeys} />
+        <InputBox addkeys={this.addkeys} />
 <Words 
 filteredWordlist={ this.state.filteredWordlist } addfavoriteWords={ this.addfavoriteWords.bind(this) }
  />
 
-<DescriptionView clickeditem={this.clickeditem(this.state.favoriteWords)} favoriteWords={this.state.favoriteWords} filteredWordlist={ this.state.filteredWordlist }/>
+<DescriptionView clickeditem={this.clickeditem(this.state.favoriteWords)} filteredWordlist={ this.state.filteredWordlist }/>
         </section>);
 }}

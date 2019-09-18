@@ -1,8 +1,6 @@
 import React from "react";
 
 
-
-
 export default ()=> (
 
 <div className="container writebox">
@@ -15,15 +13,19 @@ sapien elit, lacinia eu tristique non.posuere at mi
 <h2 id="phnnumbers">0708481316</h2>
 
 
-
 <button className="btn btn-success">Sindika ensimbi</button>
       </div>
 
       <div className="comment">
-      <form >
-      <input id="comment" placeholder="tusindikire yo ekilowoozo" className="form-control" type="text"/>
+
+<div className="comments-list" >this is to list comments</div>
+
+      <form id="comment-input-N-btn">
+      <input id="commentInput" placeholder="tusindikire yo ekilowoozo" className="form-control" type="text"/>
       <button className="btn btn-success">Sindika koomenti</button>
             </form>
+
+
             </div> {/* this is the comments section */}
       
       </div>

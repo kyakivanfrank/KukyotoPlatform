@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 export default ({nem, addfavorites})=> {
 
   const getStyle =()=>{ 
@@ -13,7 +12,9 @@ export default ({nem, addfavorites})=> {
           fontSize: '12px',
           borderRadius: '9px',
           borderStyle: 'none'
-          }}
+          }
+        
+        }
           return <span > <button onClick={()=> addfavorites(nem.id)}
            style={getStyle()}> { nem.erinnya } </button> </span> 
 

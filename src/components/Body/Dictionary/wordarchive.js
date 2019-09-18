@@ -6,7 +6,7 @@ const wordarchive =[
           english: "table",
            description: "kyekibajje ekikozesbwa okutuuzako ebintu nga emmere, okusomereko mpozzi nokuteesa",
            useofWord: "nakitto atadde ekimuli ku mmeeza",
-            relatedWords: ["ntebe", "kitanda", "kkabada", "luggi"] },
+            relatedWords: [" ntebe ", " kitanda ", " kkabada ", " luggi "] },
 
     { id: 1,
         word: "mukeeka",
@@ -14,7 +14,7 @@ const wordarchive =[
          english: "mat",
             description: "omwaliro ogutuulwako mu mpya zabaganda",
             useofWord: "jjaajja atudde ku mukeeka",
-                relatedWords: ["mufaliso", "kiwempe", "kakutiya", "kibbo"] },     
+                relatedWords: [" mufaliso ", " kiwempe ", " kakutiya ", " kibbo "] },     
 
                    { id: 2,
                     word: "lugambo",
@@ -22,7 +22,7 @@ const wordarchive =[
                      english: "gossip",
                       description: ["okwogera kukintu ekitakkwaatako","ebintu ebyogerwako mu lugambo nabyo byennyinyi biyitibwa lugambo"],
                       useofWord: ["olugambo teluggwa mumawulire","mukyala neyiba yantamya lugambo"],
-                       relatedWords: ["kugeya", "kusamwa ssamwa", "kwogera"] },   
+                       relatedWords: [" kugeya ", " kusamwa ssamwa ", " kwogera "] },   
                        
                        { id: 3,
                         word: "mmezza",
@@ -30,7 +30,7 @@ const wordarchive =[
                          english: "table",
                           description: "kyekibajje ekikozesbwa okutuuzako ebintu nga emmere, okusomereko mpozzi nokuteesa",
                           useofWord: "nakitto atadde ekimuli ku mmeeza",
-                           relatedWords: ["ntebe", "kitanda", "kkabada", "luggi"] },
+                           relatedWords: [" ntebe ", " kitanda ", " kkabada ", " luggi "] },
                
                    { id: 4,
                        word: "mukeeka",
