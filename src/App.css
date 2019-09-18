@@ -54,11 +54,19 @@ section
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+#rotated-div:hover
+{
+    background-color: black;
+    /*background-color: #f7fff7;*/
+    opacity: 0.7;  
+}
 #anti-rotated-div
 {
     padding-top: 50px;
     transform: skewY(-2deg);
 }
+
+
 
 
 .projComp
@@ -89,7 +97,6 @@ section
 /*background-color: black;*/
     margin-top: 80px;
 }
-
 
 .components
 {
@@ -283,10 +290,11 @@ font-size: 15px;
 
 
 
-#inputbox,#inputboxdict{
+#inputbox{
     height: 30px;
     background-color: lightgray;
 }
+
 
 .totems{
     padding: 0;
@@ -411,6 +419,10 @@ overflow: scroll;
     margin: 5px 0px 0px 10px;
     width: 255px;
 }
+
+
+
+
 .akabiroimg
 {
     transform: rotate(0deg);
@@ -418,7 +430,13 @@ overflow: scroll;
     margin: -25px 0px 0px 150px;
     border-radius: 90%;
     border: 2px white solid;
+}.akabiroimg:hover
+{
+    width: 90px;
+    margin: -25px 0px 0px 130px;
 }
+
+
 .card-data{
 margin: 15px 0px 0px 0px;
 overflow: scroll;
@@ -472,6 +490,10 @@ overflow: scroll;
   list-style: none;
   padding: 0.5rem 0.75rem;
 
+}
+.tab-list-item:hover{
+    background: lightgreen;
+    
 }
 
 .tab-list-active {

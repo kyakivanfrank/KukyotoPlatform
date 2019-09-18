@@ -10,7 +10,6 @@ export default () => <div className="aboutSection">
  Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. 
  Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper</p>
 </div>
-
 <div className="devflex">
 <Dev/>
 <Dev/>

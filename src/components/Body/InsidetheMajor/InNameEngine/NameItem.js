@@ -3,6 +3,8 @@ import React from 'react';
 
 export default ({nem, addfavorites})=> {
 
+  
+
   const getStyle =()=>{ 
         return { 
           padding : '1px 10px',
@@ -13,9 +15,8 @@ export default ({nem, addfavorites})=> {
           borderRadius: '9px',
           borderStyle: 'none'
           }
-        
         }
-          return <span > <button onClick={()=> addfavorites(nem.id)}
+          return <span id="nameItem-span" > <button onClick={()=> addfavorites(nem.id)}
            style={getStyle()}> { nem.erinnya } </button> </span> 
 
 }
