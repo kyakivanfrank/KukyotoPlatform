@@ -352,7 +352,6 @@ body{
 }
 
 
-
 .nav-link{
     color: green;
 }
@@ -368,9 +367,15 @@ background-color: green;
     color: #ffffff;
 }
 
-#logo
+.container2
 {
-    margin-left: 40px
+	width: 90%;
+margin: 0 auto 0 
+}
+
+#logopic
+{
+    width: 150px;
 }
 
 #adboard

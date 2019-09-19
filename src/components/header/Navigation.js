@@ -1,15 +1,17 @@
 import React from 'react';
 import { div, header, nav, a, button, span, ul, li } from 'reactstrap';
 
+import KukyotoLogo  from '../Body/InsidetheMajor/img/kukyotoLogo.gif';
+
 const Navigation =(props)=> 
 
 <header >
 <div id="rotated-div">
-<div id="anti-rotated-div">
+<div id="anti-rotated-div" className="container2">
 
 <nav className="navbar navbar-expand-lg navbar-light">
     <a className="navbar-brand" href="/">
-    <h1 id="logo" >KUKYOTO</h1>
+    <img id="logopic" src={KukyotoLogo} alt="kukyotoLogo"/>
 </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
