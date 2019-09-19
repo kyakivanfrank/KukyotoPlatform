@@ -17,7 +17,6 @@ class Inputbox extends React.Component {
     this.props.addkeys(this.state.keystrokes);
   };
   render (){
-    console.log(this.state.keystrokes)
       // onSubmit={this.onSubmit} // this is a form prop
       // value = {this.state.keystrokes} // this is an input prop
 

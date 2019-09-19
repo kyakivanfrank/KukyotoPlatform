@@ -1,11 +1,20 @@
 import React from "react";
 import DescrViewItem from "./DescrViewItem";
 
+export default ({favoriteWords, filteredWordlist}) => {
+    if(favoriteWords.length >= 2) 
+    {
+     favoriteWords.reverse()
+    favoriteWords.pop(favoriteWords.length)
+    }
 
-export default ({clickeditem,  filteredWordlist}) => {
-    
+    const favWord = favoriteWords.map( id=> {
+        const chosenitem = filteredWordlist[id];
+       return <DescrViewItem key={id} chosenitem={chosenitem} />
+    });
 
-const chosenitem = filteredWordlist[clickeditem];
-        return <DescrViewItem word={chosenitem.word} wordType={chosenitem.wordType} english={chosenitem.english} 
-        description={chosenitem.description} useofWord={chosenitem.useofWord} relatedWords={chosenitem.relatedWords} />
+return <div>
+   {favWord}
+   </div>
+      
     }

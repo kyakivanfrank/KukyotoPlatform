@@ -138,7 +138,7 @@ const datalist = [
                                           { id:10,
                                              erinnya: "buule",
                                               boy : true, 
-                                              omuziro: "mazzi" ,  
+                                              omuziro: "mazzi ga kisasi" ,  
                                               ekifananyi: Picture,  
                                               omubala: "jkndk", 
                                               akabbiro: "kjskd",  

@@ -5,7 +5,7 @@ import ProjComponent from "./components/ProjComponent";
 import About from "./components/Body/About";
 import FooterComp from "./components/Footer/FooterComp"
 import Donation from "./components/Body/Donation";
-// import Major from "./components/Body/Major";
+import Major from "./components/Body/Major";
 import { div } from 'reactstrap';
 
 class App extends React.Component
@@ -20,8 +20,7 @@ class App extends React.Component
 return <div >
 <Navigation />
 
-
-{/*<Major/>*/} 
+<Major/>
 <div className="container main-tasks" >
 <h3 id="heading">Emirimu gyaffe</h3>
 <div className="components">

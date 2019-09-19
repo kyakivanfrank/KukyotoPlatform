@@ -3,7 +3,7 @@ import React from "react";
 
 
 
- export default ({key, boy, erinnya, omuziro, akabbiro, ekifananyi, akifananyikyakabbiro, omukuluwekika, amasiga, emirimu, omubala}) => {
+ export default ({ boy, erinnya, omuziro, akabbiro, ekifananyi, akifananyikyakabbiro, omukuluwekika, amasiga, emirimu, omubala}) => {
 
  
     return (

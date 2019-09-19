@@ -3,6 +3,13 @@ import Dcard from "./Dcard";
 
 export default ({favorites, filtered}) => {
 
+    if(favorites.length >= 2) 
+    {
+     favorites.reverse()
+    favorites.pop(favorites.length)
+    }
+// from here is where the data fro  the shortlister will come
+
     const chosenName = favorites.map(id => {
 
         const chosen = filtered[id];
