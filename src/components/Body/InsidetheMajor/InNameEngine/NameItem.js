@@ -7,8 +7,8 @@ export default ({nem, addfavorites})=> {
 
   const getStyle =()=>{ 
         return { 
-          padding : '1px 10px',
-          margin: '1px',
+          padding : '1px 8px',
+          margin: '0px 0px 0px 0px' ,
           background : nem.boy ? 'lightblue' : 'pink',
           fontWeight: "bold",
           fontSize: '12px',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { div, header, nav, a, button, span, ul, li } from 'reactstrap';
 
-import KukyotoLogo  from '../Body/InsidetheMajor/img/kukyotoLogo.gif';
+import KukyotoLogo  from '../../components/img/kukyotoLogo.gif';
 
 const Navigation =(props)=> 
 
@@ -18,8 +18,9 @@ const Navigation =(props)=>
   </button>
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
   <ul className="nav ml-auto justify-content-center" >
-	<li className="nav-item"><a className="nav-link active" href="/">Developers</a></li>
-	<li className="nav-item about"><a className="nav-link" href="/">About</a></li>
+	<li className="nav-item"><input className="form-control navInput"/></li>
+	<li className="nav-item"><a className="nav-link active" href="/"><h3 className="navfonts">Developers</h3></a></li>
+	<li className="nav-item about"><a className="nav-link" href="/"><h3 className="navfonts">About</h3></a></li>
 </ul>
   </div>
 </nav>

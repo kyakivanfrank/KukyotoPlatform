@@ -18,7 +18,7 @@ const Major =(props)=>
     </Tabs>
     </div>
 <div id="adboard" className="col-lg-4">
-
+post ads here
 </div>
     </div>
 export default Major;

@@ -2,29 +2,22 @@ import React from "react";
 import InputBox from "../InsidetheMajor/InputBox";
 import Words from "./Words";
 import DescriptionView from "./DescriptionView";
-import wordarchive from "./wordarchive";
-
-// const rnd = wordarchive.length;
-// const getRandomint= big => Math.floor(Math.random()*Math.floor(big));
+import datalist from "../../../components/datalist";
 
 export default class DictionaryEngine extends React.Component{
-
 constructor(props){
 super(props);
-this.state= { filteredWordlist : wordarchive.filter( eachWord => eachWord.word.includes("")),
+this.state= { filteredWordlist : datalist.wordarchive.filter( eachWord => eachWord.word.includes("")),
 favoriteWords : []
 }}
-
 addkeys=(keys)=>{
-    this.setState( { filteredWordlist: wordarchive.filter( eachWord => eachWord.word.includes(keys)) } );
+    this.setState( { filteredWordlist: datalist.wordarchive.filter( eachWord => eachWord.word.includes(keys)) } );
     };
-    
     addfavoriteWords=id=>
     {   const favWordsList = this.state.favoriteWords.concat([id]); 
         this.setState( { favoriteWords : favWordsList } )
     };
 
-    
 render(){
     return <section className="names-widget">
         <InputBox addkeys={this.addkeys} />

@@ -13,7 +13,7 @@ export default ({favoriteWords, filteredWordlist}) => {
        return <DescrViewItem key={id} chosenitem={chosenitem} />
     });
 
-return <div>
+return <div id="descArea">
    {favWord}
    </div>
       

@@ -1,6 +1,6 @@
 *{
 
-    font-family:  Segoe UI Symbol, meiryo ui, Segoe UI ;
+    font: 400 16px/1.6 Rubik, sans-serif;
 }
 
 .writebox{
@@ -9,19 +9,26 @@
     display: flex;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
+
+.navInput
+{height: 25px;
+margin: 5px auto 0px;}
 
 .flexa{
     display: flex;
-    margin-top: 50px;
+    margin: 50px auto 50px;
 }
 
 .name-body{
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
+#nameItem-span{
+	margin: 0;
+}
 section
 {
     background-color: bisque;
@@ -30,36 +37,46 @@ section
     border-radius: 2px;
 }
 
+.shortlist-Space{
+	width: 285px;
+	padding:0;
+	/*height: */
+}
+
 #instructions{
 	color: orange;
     /*text-shadow: 0px 0px 1px orange;*/
 }
 
 #phnnumbers{
-
-
 	padding: 5px;
-	border: 1px lightgreen solid;
-	margin: 10px 0px ;
+	/*border: 1px lightgreen solid;*/
+	margin: 10px auto ;
 }
 
 #rotated-div
 {
-    margin-top: -50px;
+    margin-top: -55px;
     transform: skewY(2deg);
-    background-color: white;
-    opacity: 1;
-    height: 130px;
-    border-bottom: 2px black solid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*background-color: white;*/
+    height: 150px;
+    /*box-shadow: 1px 1px 1px lightgreen;*/
+    /*border-bottom: 1px black solid;*/
 }
-
 #rotated-div:hover
 {
-    background-color: black;
-    /*background-color: #f7fff7;*/
-    opacity: 0.7;  
+    /*transform: skewY(-1deg);*/
+    background-color: rgba(220,220,220,0.4);
 }
+
+.navfonts{
+
+	color: green;
+	font-size: 16px;
+}
+
+
+
 #anti-rotated-div
 {
     padding-top: 50px;
@@ -88,7 +105,7 @@ section
 
 .main-tasks{
 
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .components
@@ -101,6 +118,7 @@ margin: 10px auto 80px;
 
 #heading
 {
+font-size: 18px;
     max-width: 630px;
     margin: 10px auto 10px auto;
     text-shadow: 2px 2px 1px black;
@@ -152,6 +170,11 @@ border-right: 3px lightgreen solid;
     /*margin: 0px 0px 0px 0px;*/
 }
 
+
+#comment-Name-DateDiv{
+	display: flex;
+	border: 3px black solid;
+}
 .comment{
 
     margin: 20px 10px;
@@ -166,7 +189,8 @@ border-right: 3px lightgreen solid;
 
 .comments-list
 {
-	height: 100px;
+	height: 250px;
+	overflow: scroll;
 }
 #comment-input-N-btn
 {
@@ -180,15 +204,21 @@ margin-top: 130px;
 font-size: 23px;
 }
 
+#donateDIV{
+
+height: 100px;
+	margin-bottom: 10px;
+	/*border: 10px blue solid;*/
+}
+
 .donate-btn
 {
     border-radius: 5px;
     border: none;
     background-color: orange;
     padding: 12px;
-    margin: 0px 0px 70px 900px;
     max-width:300px;
-
+	float: right;
 }
 
 .devbox
@@ -201,9 +231,7 @@ font-size: 23px;
 
 .devflex
 {
-max-width: 900px;
 display: flex;
-margin: 0px auto;
 }
 
 
@@ -216,13 +244,35 @@ margin: 0px auto;
  
  .mzirochippic{
     border-radius: 60%;
-    width: 50px; 
+    width: 40px; 
+}
+
+
+.totem-btn
+{
+	padding: 1px;
+    background: none;
+    border: none;
+    width: 80px;
+    height: 65px;
+}
+
+.totem-btn:hover
+{
+	padding-bottom: 5px;
+	width: 80px;
+}
+
+.totems{
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 #totem-pic{
 	padding: 1px;
     border-radius: 60%;
-	/*border: 2px green solid;*/
 }
 #totem-pic:hover{
 	padding: 2px;
@@ -230,6 +280,8 @@ margin: 0px auto;
     box-shadow: 0px 0px 2px green;
 
 }
+
+
 
  .descDiv
  {
@@ -255,45 +307,27 @@ margin: 0px auto;
 #close{
 	border-radius: 100%;
 	width: 10px;
-	background-image: url("./components/Body/InsidetheMajor/img/close.png");
+	background-image: url("./components/img/close.png");
 	background-size: 20px;
 	border: 1px black solid;
 	margin: 2px;
 }
-.totem-btn
-{
-	padding: 1px;
-    background: none;
-    border: none;
-    width: 80px;
-    height: 70px;
-}
 
-.totem-btn:hover
-{
-	padding-bottom: 5px;
-	width: 100px;
-}
 
 #clicked-Name:hover{
 
-font-size: 15px;
-
+font-size: 15px
 }
 
 
 
 #inputbox{
-    height: 30px;
+    height: 25px;
     background-color: lightgray;
+    margin: 0px 0px 5px;
+
 }
 
-
-.totems{
-    padding: 0;
-    display: flex;
-    overflow-x: scroll;
-}
 
 ::-webkit-scrollbar{
     height: 5px;
@@ -306,11 +340,22 @@ font-size: 15px;
     border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: green;
+}
+
+
 ::-webkit-scrollbar-thumb:hover{
     border-radius: 20px;
     background-color: green;
 }
 
+#omubalaCard{
+	font-size: 15px;
+	color: red;
+	margin: 40px 10px 30px;
+}
 
 #inputing
 {
@@ -327,7 +372,7 @@ h1{font-size: 25px;}
 h2{font-size: 20px;}
 h3{font-size: 15px; color: white}
 h4{ padding: 0; margin: 0; font-size: 12px; }
-
+mm
 .col-lg-5{
     padding: 0;
     
@@ -335,16 +380,16 @@ h4{ padding: 0; margin: 0; font-size: 12px; }
 .form-control
 {
     border-radius: 10px;
-    margin: 5px 0px;
 
 }
 .names-widget{
+	height: 405px;
     padding: 5px 10px;
     background-color: #ffffff;
 }
 
 body{
-    background-image: url("./components/Body/InsidetheMajor/img/nsenene.jpg");
+    background-image: url("./components/img/mpologoma.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -375,7 +420,8 @@ margin: 0 auto 0
 
 #logopic
 {
-    width: 150px;
+    width: 180px;
+    margin: 2px 0 2px;
 }
 
 #adboard
@@ -388,15 +434,16 @@ margin: 0 auto 0
 .card-body
 {
     background: white;
-    width: 250px ;
-    height: 280px;
-    overflow: hidden;
+    width: 285px;
+    height: 290px;
+    overflow: overlay;
     border-radius: 10px;
+    border: 2px green solid;
 }
 
 .shortlists{
 background-color: #ffffff;
-height: 100px;
+height: 60px;
 overflow: scroll;
     }
 
@@ -414,59 +461,74 @@ overflow: scroll;
 .cardimg 
 {
     transform: rotate(-7deg);
-    margin: 5px 0px 0px 10px;
-    width: 255px;
+    margin: -15px 0px 0px 10px;
+    width: 290px;
+}
+
+#akabiro{
+	padding: 40px 0 0px;
+	float: right;
+		color: green;
+	font-weight: bold;
+	font-size: 15px;
+
 }
 
 
+.akabiroDiv{
+    margin-top: -25px ;
+    display: flex;
+    width: 230px;
 
+}
 
+.akabiDV{margin-left: 10px}
 .akabiroimg
 {
-    transform: rotate(0deg);
-    width: 70px;
-    margin: -25px 0px 0px 150px;
+width: 70px;
     border-radius: 90%;
-    border: 2px white solid;
-}.akabiroimg:hover
-{
-    width: 90px;
-    margin: -25px 0px 0px 130px;
+    border: 3px white solid;
 }
 
+.col-lg-9, .col-lg-3{padding: 0}
+
+#omuziroCardName{
+	color: green;
+	font-weight: bold;
+	font-size: 23px;
+}
 
 .card-data{
-margin: 15px 0px 0px 0px;
+margin: -5px 0px 0px 0px;
 overflow: scroll;
 }
 
 #nam{
     padding: 0;
-    margin: 0
-    ;
+    margin: 0;
+    font-size: 30px;
     
 }
 
 .imgDiv{
+
     margin-top: -70px;
     margin-left: -30px;
-    width: 300px;
+    width: 315px;
     height: 210px;
     transform: rotate(7deg);
     overflow: hidden;
 }
 
-#akabiro{
-    width: 60px;
-
-    margin: -30px 0px 0px 85px;
-}
-
 
 #ebirala
 {
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
+    border: none;
+    background:none;
+    font-size: 12px;
+    float: right;
 }
 
 
@@ -486,7 +548,7 @@ overflow: scroll;
     border: none;
   display: inline-block;
   list-style: none;
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 1.75rem;
 
 }
 .tab-list-item:hover{

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Devpic from "./InsidetheMajor/img/check1.png"
+import Devpic from "../../components/img/check1.png"
 
 export default ({ name, aboutdev })=> <div className="devbox">
 <div className="devflex ">
