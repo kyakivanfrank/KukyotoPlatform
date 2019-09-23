@@ -5,7 +5,7 @@ import Devpic from "../../components/img/check1.png"
 export default ({ name, aboutdev })=> <div className="devbox">
 <div className="devflex ">
 
-<div className="">
+<div>
 <img id="devpic" src={Devpic} alt="omuziro"/>
 </div>
 

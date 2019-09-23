@@ -20,8 +20,6 @@ social media pages and comment from there. we'll surely receive and reply to the
 <Comments/>
 <Comments/>
 <Comments/>
-<Comments/>
-<Comments/>
 <Comments/>*/}
 </div>
       <form id="comment-input-N-btn">

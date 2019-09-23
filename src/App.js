@@ -20,7 +20,6 @@ class App extends React.Component
   render (){
 return <div >
 <Navigation />
-
 <BrowserRouter>
 <Switch>
 <Route path="/StartPage" exact component={ StartPage }/>

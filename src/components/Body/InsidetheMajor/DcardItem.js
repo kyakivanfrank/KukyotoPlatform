@@ -2,8 +2,7 @@ import React from "react";
 
  export default ({ boy, erinnya, omuziro, akabbiro, ekifananyi, akifananyikyakabbiro, omukuluwekika, amasiga, emirimu, omubala}) => {
 
-    return (
-      <div className="card-body">
+    return <div className="card-body">
     <div className="imgDiv">
   <img className="cardimg" src={ekifananyi} alt="omuziro"/>
   </div>
@@ -19,21 +18,15 @@ import React from "react";
    <button id="ebirala" className="btn btn-link">ebirala</button>
    <h3 id="omubalaCard"> " {omubala} "</h3>
 
-   <h4>omukulu weekika</h4>
-   <p>{omukuluwekika}</p>
-   <h4>amasiga gekika kino</h4>
-   <p>{amasiga}</p>
-    <p>emirimu je gyaku{emirimu}</p>
+<div className="wordNsignDiv">
+   <h4 className="green-colored">Omukulu weekika:  </h4>
+   <p>{omukuluwekika}</p></div>
 
+   <div className="wordNsignDiv">
+   <h4 className="green-colored">Amasiga: </h4>
+   <p>{amasiga}</p></div>
+    <h4 className="green-colored">Emirimu je jeekika kino: </h4>{emirimu}
 
    </div>
-
-
-
       </div>
-      
-       )
-        
-    
-
-}
+       }

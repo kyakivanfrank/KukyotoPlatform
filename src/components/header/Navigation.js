@@ -19,8 +19,8 @@ const Navigation =(props)=>
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
   <ul className="nav ml-auto justify-content-center" >
 	<li className="nav-item"><input className="form-control navInput"/></li>
-	<li className="nav-item"><a className="nav-link active" href="/"><h3 className="navfonts">Developers</h3></a></li>
-	<li className="nav-item about"><a className="nav-link" href="/"><h3 className="navfonts">About</h3></a></li>
+	<li className="nav-item"><a className="nav-link active" href="/"><h3 className="navfonts">Abajikola</h3></a></li>
+	<li className="nav-item about"><a className="nav-link" href="/"><h3 className="navfonts">Ebitukwatako</h3></a></li>
 </ul>
   </div>
 </nav>

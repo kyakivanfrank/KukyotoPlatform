@@ -1,4 +1,5 @@
  import  Picture  from "../components/img/check1.png";
+ import  enkima  from "../components/img/enkima.jpg";
 
 const datalist ={
    nameprojectDatalist :[
@@ -26,19 +27,20 @@ const datalist ={
                omukuluwekika: "wsdfss" , 
                amasiga: "sfdds", 
                emirimu: "fkdsjhlkfd "},
-  
+
+
   
                { id:2,
-                  erinnya: "nampeera",
-                   boy : false, 
-                   omuziro: "lugave" ,  
-                   ekifananyi: Picture,  
-                   omubala: "jkndk", 
-                   akabbiro: "kjskd",  
+                  erinnya: "luwagga",
+                   boy : true, 
+                   omuziro: "nkima" ,  
+                   ekifananyi: enkima,  
+                   omubala: "tubuukabuuka bubuusi buusi tulya amenvu agasinga okuwooma. abenkima bazzulu bakabaka tewali mulala atukila. gunsinze ayi beene", 
+                   akabbiro: "ntalagalanya",  
                    akifananyikyakabbiro: Picture, 
-                   omukuluwekika: "wsdfss" , 
-                   amasiga: "sfdds", 
-                   emirimu: "fkdsjhlkfd "},
+                   omukuluwekika: "ssegamwenge" , 
+                   amasiga: "mityana bukomansimbi", 
+                   emirimu: "1 .omuzukulu owenkima yaseesa mu masiga ka sabasajja. 2. era beeba bumba nga ensuwa ze"},
   
   
                    { id:3,
@@ -193,7 +195,7 @@ const datalist ={
                          word: "lugambo",
                           wordType: ["kintu"],
                           english: "gossip",
-                           description: ["okwogera kukintu ekitakkwaatako","ebintu ebyogerwako mu lugambo nabyo byennyinyi biyitibwa lugambo"],
+                           description: ["okwogera kukintu ekitakkwaatako"," ebintu ebyogerwako mu lugambo nabyo byennyinyi biyitibwa lugambo"],
                            useofWord: ["olugambo teluggwa mumawulire","mukyala neyiba yantamya lugambo"],
                             relatedWords: [" kugeya ", " kusamwa ssamwa ", " kwogera "] },   
                             
@@ -213,13 +215,16 @@ const datalist ={
                                 useofWord: "jjaajja atudde ku mukeeka",
                                     relatedWords: ["mufaliso", "kiwempe", "kakutiya", "kibbo"] },     
                     
+
+                                   
+
                                        { id: 5,
-                                        word: "lugambo",
-                                         wordType: ["kintu"],
-                                         english: "gossip",
-                                          description: ["okwogera kukintu ekitakkwaatako","ebintu ebyogerwako mu lugambo nabyo byennyinyi biyitibwa lugambo"],
-                                          useofWord: ["olugambo teluggwa mumawulire","mukyala neyiba yantamya lugambo"],
-                                           relatedWords: ["kugeya", "kusamwa ssamwa", "kwogera"] },       
+                                        word: "mpologoma",
+                                         wordType: ["kisolo"],
+                                         english: "lion",
+                                          description: ["ekisolo ekibeera munsiko ekilya ebisolo ebirala, mpologoma ensajja ziba ne byoya ebinji ebizifuula ezitiisa ennyo. empologoma emanyiddwa nga a kabaka wekibiraekisolo ekibeera munsiko ekilya ebisolo ebirala, mpologoma ensajja ziba ne byoya ebinji ebizifuula ezitiisa ennyo. empologoma emanyiddwa nga a kabaka wekibira"],
+                                          useofWord: ["nalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka.nalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka.nalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka.nalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka.nalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka. empologoma zaalidde entuluge nnambanalweyiso yaliibwa empologoma nga li muttale, abayizi basse empologoma yo mukasaka. empologoma zaalidde entuluge nnamba"],
+                                           relatedWords: ["ngo", "mpisi", "kkapa", "mbwa", "ntulege", "ntugga"] },       
                         
       
       ]
