@@ -8,9 +8,11 @@ export default ({favoriteWords, filteredWordlist}) => {
     favoriteWords.pop(favoriteWords.length)
     }
 
+
+    console.log(favoriteWords)
     const favWord = favoriteWords.map( id=> {
         const chosenitem = filteredWordlist[id];
-       return <DescrViewItem key={id} chosenitem={chosenitem} />
+       return <DescrViewItem key={id.id} chosenitem={chosenitem} />
     });
 
 return <div id="descArea">

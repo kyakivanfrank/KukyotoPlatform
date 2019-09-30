@@ -2,7 +2,7 @@ import React from "react";
 
 export default ({chosenitem})=> (
     <div className="descDiv">
-
+    
     <div className="wordNsignDiv">
     <h1 id="dictWord">{chosenitem.word}</h1><div id="GoodBad-Sign"></div>
     </div>
@@ -15,7 +15,6 @@ export default ({chosenitem})=> (
   <h3 className="mulungereza">Enkozesa ya kyo:</h3><h3 id="useofWord">{chosenitem.useofWord}</h3>
 
   <div className="wordNsignDiv"><h3 className="mulungereza">Ebyefananyiliza:</h3><h4 id="relatedWords">{chosenitem.relatedWords}</h4></div>
-
 
     </div>
 )

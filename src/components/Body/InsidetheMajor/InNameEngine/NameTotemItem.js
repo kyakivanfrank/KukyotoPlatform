@@ -18,9 +18,7 @@ export default ({erinnya, omuziro, id, boy})=>{
     return <span><button className="btn btn-none"  style={getStyle()}>
     <div className="lineup">
      <span><h3 id="name-NT" >{ erinnya }</h3><h4 id="totem-NT"> {omuziro}</h4></span>
-     <button id="close" className="close">
-     x
-     </button>
+     
      </div>
      </button>
      </span> 

@@ -1,5 +1,4 @@
 *{
-
     font: 400 16px/1.6 Rubik, sans-serif;
 }
 
@@ -65,7 +64,7 @@ section
 {
     margin-top: -55px;
     transform: skewY(2deg);
-    /*background-color: white;*/
+    background-color: rgba(255,255,255,0.99);
     height: 150px;
     /*box-shadow: 1px 1px 1px lightgreen;*/
     /*border-bottom: 1px black solid;*/
@@ -253,6 +252,12 @@ display: flex;
     width: 40px; 
 }
 
+/*#myButton{
+
+	background-color: red;
+	padding: 30px;
+}
+*/
 
 .totem-btn
 {
@@ -266,6 +271,14 @@ display: flex;
 .green-colored{
 	color: #3a8905;
 	font-weight: bold;
+	/*height: 5px;*/
+
+}
+
+.green-colored:hover{
+	color: darkgreen;
+	font-size: 15px;
+
 }
 
 .totem-btn:hover
@@ -315,7 +328,7 @@ display: flex;
 
   	}
 
-  
+
 
  #dictWord, #translato, #lilDescr, #useofWord, #relatedWords
  {
@@ -491,11 +504,20 @@ margin: 0 auto 0
 
 .card-body
 {
-    width: 285px;
-    height: 290px;
-    overflow-x: hidden;
+	overflow-x: hidden;
+    width: 270px;
+    /*height: 290px;*/
     border-radius: 10px;
-    box-shadow: 1px 1px 15px #87a841;
+    box-shadow: 1px 1px 50px #87a841;
+}
+
+#Card-cont{
+    height: 290px;
+    width: 285px;
+    padding: 5px 5px;
+
+    overflow-x: hidden;
+    border-radius: 15px;
 }
 
 .shortlists{
@@ -522,7 +544,7 @@ overflow: scroll;
 }
 
 #akabiro{
-	padding: 40px 0 0px;
+	padding: 40px 5px 0px;
 	float: right;
 		color: #87a841;
 	font-weight: bold;
@@ -538,7 +560,8 @@ overflow: scroll;
 
 }
 
-.akabiDV{margin-left: 5px}
+/*.akabiDV{margin-left: 0px}*/
+
 .akabiroimg
 {
 width: 70px;
@@ -555,8 +578,8 @@ width: 70px;
 }
 
 .card-data{
-margin: -5px 0px 0px 0px;
-overflow: scroll;
+margin: -5px 0px 0px -5px;
+/*overflow: scroll;*/
 }
 
 #nam{
