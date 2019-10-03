@@ -6,7 +6,13 @@ export default () => <div className="aboutSection">
 <div className="container no-skew">
 <div>
 <h2 className="green-colored">About Kukyoto</h2>
+<p>Kukyooto website ye website engenda ikuyamba ku bulamu bwo</p>
+
+
 <div>okwebaza ssabasajja kabaka</div>
+
+
+
 <p>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque.
  Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. 
  Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper</p>
