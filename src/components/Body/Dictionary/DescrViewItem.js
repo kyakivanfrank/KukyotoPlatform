@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({chosenitem})=> (
+ const DescrViewItem = ({ chosenitem }) => (
     <div className="descDiv">
     
     <div className="wordNsignDiv">
@@ -17,6 +17,18 @@ export default ({chosenitem})=> (
   <div className="wordNsignDiv"><h3 className="mulungereza">Ebyefananyiliza:</h3><h4 id="relatedWords">{chosenitem.relatedWords}</h4></div>
 
     </div>
-)
+);
+
+// DescrViewItem.defaultProps = {
+
+//   word : "kikere"
+
+
+// };
+
+export default DescrViewItem;
+
+
+
     
 

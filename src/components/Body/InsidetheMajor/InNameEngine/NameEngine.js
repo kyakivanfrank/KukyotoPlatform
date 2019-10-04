@@ -16,7 +16,6 @@ import ShortlistedDcard from '../ShortlistedDcard';
 
 class NameEngine extends React.Component{
 
-
         constructor(props)
         {super(props);
         this.state = {

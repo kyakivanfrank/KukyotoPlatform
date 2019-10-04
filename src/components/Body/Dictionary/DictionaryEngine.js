@@ -16,9 +16,11 @@ export default class DictionaryEngine extends React.Component{
 constructor(props){
 super(props);
 this.state= { filteredWordlist : datalist.wordarchive.filter( eachWord => eachWord.word.includes("")),
-
 favoriteWords : []
 }}
+
+
+
 
 addkeys=(keys)=>{
     this.setState( { filteredWordlist: datalist.wordarchive.filter( eachWord => eachWord.word.includes(keys)) } );
@@ -27,6 +29,9 @@ addkeys=(keys)=>{
     {   const favWordsList = this.state.favoriteWords.concat([id]); 
         this.setState( { favoriteWords : favWordsList } )
     };
+
+
+    
 
 render(){
     return <section className="names-widget">
