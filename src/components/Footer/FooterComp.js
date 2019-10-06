@@ -9,17 +9,19 @@ social media
 </div>
 
 <div className="footerparts">
-social media
+terms and constions
 </div>
 
 <div className="footerparts">
-social media
 </div>
 
 <div className="footerparts">
-social media is the 
+twitter facebook  whatsapp Group  
 </div>
 
 </div>
-<div className="lowest"><p>&copy;2019 KUKYOTO PLATFORM. all rights reserved | Designed from a collaboration of Lubwama Lincoln & Kyakusse Frank ivan</p></div>
+<div className="lowest"><p>&copy;2019 KUKYOTO PLATFORM. 
+<a href> All rghts reserved </a>
+
+| powered by Collaboration(Lubwama Lincoln & Kyakusse Frank ivan)</p></div>
 </footer>

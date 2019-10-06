@@ -1,7 +1,7 @@
 import React from "react";
 import DescrViewItem from "./DescrViewItem";
 
-export default ({favoriteWords, filteredWordlist}) => {
+export default ({favoriteWords, filteredFirestoreObjsList}) => {
 
     // const DefaultRandomID = ()=> {
     //     return  
@@ -14,9 +14,11 @@ export default ({favoriteWords, filteredWordlist}) => {
     favoriteWords.pop(favoriteWords.length)
     }
 
-    const favWord = favoriteWords.map( id=> {
-        const chosenitem = filteredWordlist[id];
-       return <DescrViewItem key={id.id} chosenitem={chosenitem} />
+    const favWord = favoriteWords.map( id => {
+        const chosenitem = filteredFirestoreObjsList[id];
+       return < DescrViewItem 
+    //    key={id.index} 
+       chosenitem={chosenitem} />
     });
 
 return <div id="descArea">

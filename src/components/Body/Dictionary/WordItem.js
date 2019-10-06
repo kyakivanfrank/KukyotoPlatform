@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-export default ({word, addfavoriteWords})=> {
+export default ({Word, id , addfavoriteWords})=> {
 
   const getStyle =()=>{ 
         return { 
@@ -14,8 +14,10 @@ export default ({word, addfavoriteWords})=> {
           borderStyle: 'none'
           }}
 
-          return <span > <button onClick={()=> addfavoriteWords(word.id)}
-           style={getStyle()}> { word.word } </button> </span> 
+          console.log(id);
+
+          return <span > <button onClick={()=> addfavoriteWords(id)}
+           style={getStyle()}> { Word } </button> </span> 
 }
 
 
