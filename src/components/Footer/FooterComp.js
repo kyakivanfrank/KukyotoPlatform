@@ -21,7 +21,7 @@ twitter facebook  whatsapp Group
 
 </div>
 <div className="lowest"><p>&copy;2019 KUKYOTO PLATFORM. 
-<a href> All rights reserved </a>
+<a href="/"> All rights reserved </a>
 
-| powered by Collaboration(Lubwama Lincoln & Kyakusse Frank ivan)</p></div>
+| it's a collaboration(Lubwama Lincoln & Kyakusse Frank ivan)</p></div>
 </footer>

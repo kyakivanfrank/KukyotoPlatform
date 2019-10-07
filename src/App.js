@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Navigation from "./components/header/Navigation";
 import About from "./components/Body/About";
 import FooterComp from "./components/Footer/FooterComp"
@@ -20,11 +20,10 @@ class App extends React.Component
   render (){
 return <div >
 <Navigation />
-<BrowserRouter>
-<Switch>
+
+  <BrowserRouter>
 <Route path="/StartPage" exact component={ StartPage }/>
 <Route path="/Major" exact component={ Major }/>
-</Switch>
 </BrowserRouter>
 
 <About/>
