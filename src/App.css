@@ -96,12 +96,6 @@ font-size: 18px;
 
 
 
-.no-skew
-{
-    transform: skewY(-2deg);
-    margin: 20px 0 0 0;
-}
-
 .lowest{
     border-top: 2px white solid;
     background: black;
@@ -516,38 +510,25 @@ margin: -5px 0px 0px -5px;
 }
 
 
-.tabs{background-color: rgba(255,255,255,0.8);}
 
-/*.tab-list {
-}*/
 
-/*.tab-list-item {
-    background: none;
-    border: none;
-  display: inline-block;
-  list-style: none;
-  padding: 0.4rem 1.75rem;
-  color: #3a8905;}*/
 
-/*.tab-list-item:hover{
-    background: #87a841;
-  color: #ffffff;    }*/
 
-/*.tab-list-active {
-    font-weight: bold;
-    border-bottom: 3px #3a8905 solid;}
 
-*/
 
-/* this part is for media queries*/
+
+
 
 
 /*this is for tablet screen ================================================================================================================================*/ 
 @media only screen and (min-width: 768px){
-.container{ width: 80; }
-.components{ display: flex; width: 80%; margin: 0 auto; }
-.projComp{ width: 50%; margin: 0 10px;  }
-.aboutSection{ width: 80%; }
+.container{ width: 80%; margin: 0 auto; }
+.components{ display: flex; /*width: 80%;*/ margin: 0 auto; }
+.projComp{   }
+.no-skew{width: 80%;}
+#devpic{width: 30%; border-radius: 100%;}
+
+
 
 
 
@@ -560,8 +541,9 @@ margin: -5px 0px 0px -5px;
     border: none;
     background-color: rgba(255,255,255,0.99);
     padding: 20px;
-    margin: 10px auto 10px;
-    width: 100%;
+    margin: 10px 10px 10px;
+    width: 95%;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 1px 3px 10px black;}
 
@@ -571,11 +553,12 @@ margin: -5px 0px 0px -5px;
 #title
 {
     color: green;
-margin-top: 130px;
+margin-top: 150px;
 font-size: 23px;
 font-weight: bold;
 }
 
+.tabs{background-color: rgba(255,255,255,0.8);}
 
 .tab-list {
     padding: 0;
@@ -606,7 +589,13 @@ font-weight: bold;
     box-shadow: 1px 1px 30px black;
     transform: skewY(2deg);
     margin-bottom: 60px;
-    /*border-top: 2px green solid; */
+}
+
+.no-skew
+{
+    transform: skewY(-2deg);
+    margin: 30px auto 0;
+
 }
 
     .flexa{
@@ -616,6 +605,15 @@ font-weight: bold;
     margin: 20px 0 0 0;
     height: 200px;
     background-color: white;}
+
+    #DevTitle
+{
+    color: green;
+margin: 30px auto 0;
+font-size: 23px;
+font-weight: bold;
+}
+
 
 .devflex
 {
@@ -644,9 +642,6 @@ p{
     justify-content: all;
 }
 
-.aboutContent{
-    margin: 300px 0 0 0;
-}
 
 .writebox{
     background-color: white;
