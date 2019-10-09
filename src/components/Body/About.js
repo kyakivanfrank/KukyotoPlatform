@@ -20,8 +20,9 @@ export default () => <div className="aboutSection">
  <div> mission 2 lines,  target audience(buganda people esp in the disapora), milestone, what we expected to have in our website.</div>
  <div>you can also donate to our project</div>
 </div>
-<div className=" ">
+
 <h2 id="DevTitle">Abajikola</h2>
+<div className="Devs">
 <Dev name="Lubwama Lincoln" />
 <Dev name="Kyakusse Frank Ivan" />
 </div>

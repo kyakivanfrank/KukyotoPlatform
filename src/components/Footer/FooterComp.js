@@ -3,7 +3,9 @@ import React from "react";
 export default ()=> <footer>
 
 
-<div className="footing container">
+<div className="footing">
+
+<div className="container footerData">
 <div className="footerparts">
 social media
 </div>
@@ -23,5 +25,5 @@ twitter facebook  whatsapp Group
 <div className="lowest"><p>&copy;2019 KUKYOTO PLATFORM. 
 <a href="/"> All rights reserved </a>
 
-| it's a collaboration(Lubwama Lincoln & Kyakusse Frank ivan)</p></div>
+| it's a collaboration(Lubwama Lincoln & Kyakusse Frank ivan)</p></div></div>
 </footer>

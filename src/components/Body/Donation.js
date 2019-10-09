@@ -10,7 +10,8 @@ return (
       <button onClick={ dispPhnumber()   } id="displayNumberbtn" className="btn btn-success">Sindika ensimbi</button>
 <div className="dispPhNumber"  style={ dispPhnumber() }>
 <h4 >Weereza ku nnamba zino wammanga</h4>
-<h2 id="phnnumbers">Airtel: 0708481316 MTN: 0776440763 </h2>
+<h2 id="phnnumbers">Airtel: 0708481316</h2>
+<h2 id="phnnumbers">MTN: 0776440763 </h2>
 </div>
       </div>
       <div className="comment">READ THE COMMENTS HERE
