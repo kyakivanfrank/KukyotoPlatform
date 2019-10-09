@@ -5,13 +5,11 @@ import Devpic from "../../components/img/check1.png"
 export default ({ name, aboutdev })=> <div className="devbox">
 <div className="devflex ">
 
-<div>
 <img id="devpic" src={Devpic} alt="omuziro"/>
-</div>
 
 <div className="devstats">
 <h2 >Name of the dev</h2>
-<h3 >Founder</h3>
+<h4 >Founder</h4>
 </div>
 
 </div>

@@ -1,18 +1,17 @@
 import React from "react";
-import ProjComponent from "../../Body/StartPage/ProjComponent";
 
 export default ()=><div className="container main-tasks" >
 <h3 id="heading">Emirimu gyaffe</h3>
+
 <div className="components">
-<ProjComponent title="Amannya ne'emiziro" />
-<ProjComponent title="Dikisonale yo luganda" />
+<button className="projComp"><h1 id="title">Amannya ne'emiziro</h1></button>
+<button className="projComp"><h1 id="title">Dikisonale yo luganda</h1></button>
 </div>
+
 <div id="donateDIV">
-<button className="donate-btn" >Siima byetukola</button>
 
-
-<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
-  Large modal
+<button class="btn btn-warning donate-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+Tuweeyo akasiimo
 </button>
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"

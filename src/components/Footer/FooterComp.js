@@ -3,7 +3,7 @@ import React from "react";
 export default ()=> <footer>
 
 
-<div className="footing">
+<div className="footing container">
 <div className="footerparts">
 social media
 </div>

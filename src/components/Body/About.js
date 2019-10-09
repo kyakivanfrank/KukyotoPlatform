@@ -4,7 +4,7 @@ import Dev from "./Dev";
 
 export default () => <div className="aboutSection">
 <div className="container no-skew">
-<div>
+<div className="AboutContent">
 <h2 className="green-colored">About Kukyoto</h2>
 <p>Kukyooto website ye website engenda ikuyamba ku bulamu bwo</p>
 
@@ -20,7 +20,7 @@ export default () => <div className="aboutSection">
  <div> mission 2 lines,  target audience(buganda people esp in the disapora), milestone, what we expected to have in our website.</div>
  <div>you can also donate to our project</div>
 </div>
-<div className="devflex container">
+<div className=" ">
 <Dev/>
 <Dev/>
 </div>
