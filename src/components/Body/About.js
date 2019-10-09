@@ -21,8 +21,8 @@ export default () => <div className="aboutSection">
  <div>you can also donate to our project</div>
 </div>
 <div className=" ">
-<Dev/>
-<Dev/>
+<Dev name="Lubwama Lincoln" />
+<Dev name="Kyakusse Frank Ivan" />
 </div>
 <div>mpozzi ne bano wammanga beebayambako okukola project eno</div>
 

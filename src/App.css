@@ -92,16 +92,6 @@ font-size: 18px;
 
 }
 
-.aboutSection
-{
-    padding: 10px 0px 30px;
-    width: 100%;
-    background-color: rgba(255,255,255,0.99);
-    box-shadow: 1px 1px 30px black;
-    transform: skewY(2deg);
-    margin-bottom: 60px;
-    /*border-top: 2px green solid; */
-}
 
 
 
@@ -109,6 +99,7 @@ font-size: 18px;
 .no-skew
 {
     transform: skewY(-2deg);
+    margin: 20px 0 0 0;
 }
 
 .lowest{
@@ -142,13 +133,7 @@ font-size: 18px;
 	display: flex;
 }
 
-#title
-{
-    color: green;
-margin-top: 130px;
-font-size: 23px;
-font-weight: bolder;
-}
+
 
 #donateDIV{
 
@@ -165,6 +150,7 @@ height: 100px;
     padding: 12px;
     max-width:300px;
 	float: right;
+    margin: 20px 0 0 0;
 }
 
 
@@ -558,36 +544,37 @@ margin: -5px 0px 0px -5px;
 
 /*this is for tablet screen ================================================================================================================================*/ 
 @media only screen and (min-width: 768px){
-
-.components{ display: flex; }
-
-   .projComp
-{
-    width: 50%;
-    height: 50%;
-}
-
+.container{ width: 80; }
+.components{ display: flex; width: 80%; margin: 0 auto; }
+.projComp{ width: 50%; margin: 0 10px;  }
+.aboutSection{ width: 80%; }
 
 
 
 }
-
 /*this is for phone screen================================================================================================================================*/ 
 @media only screen and (min-width: 375px){
 
    
-    .projComp
-{
+    .projComp{
     border: none;
     background-color: rgba(255,255,255,0.99);
     padding: 20px;
     margin: 10px auto 10px;
     width: 100%;
-    height: 50%;
     border-radius: 10px;
-    box-shadow: 1px 3px 10px black;
-}
+    box-shadow: 1px 3px 10px black;}
+
 .projComp:hover{background-color: rgba(255,255,255,0.95);}
+
+
+#title
+{
+    color: green;
+margin-top: 130px;
+font-size: 23px;
+font-weight: bold;
+}
 
 
 .tab-list {
@@ -610,6 +597,17 @@ margin: -5px 0px 0px -5px;
   .tab-list-active {
     font-weight: bold;
     border-bottom: 3px #3a8905 solid;}
+
+    .aboutSection
+{
+    padding: 10px 0px 30px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.99);
+    box-shadow: 1px 1px 30px black;
+    transform: skewY(2deg);
+    margin-bottom: 60px;
+    /*border-top: 2px green solid; */
+}
 
     .flexa{
     margin: 50px auto 50px;}
@@ -639,7 +637,7 @@ display: flex;
 
 .devstats{
     /*border: 1px green solid;*/
-    margin: 0 0 0 10px;
+    margin: 20px 0 0 10px;
 }
 
 p{
@@ -647,7 +645,7 @@ p{
 }
 
 .aboutContent{
-    padding: 400px 0;
+    margin: 300px 0 0 0;
 }
 
 .writebox{

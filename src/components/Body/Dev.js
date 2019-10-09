@@ -8,7 +8,7 @@ export default ({ name, aboutdev })=> <div className="devbox">
 <img id="devpic" src={Devpic} alt="omuziro"/>
 
 <div className="devstats">
-<h2 >Name of the dev</h2>
+<h2 >{name}</h2>
 <h4 >Founder</h4>
 </div>
 
