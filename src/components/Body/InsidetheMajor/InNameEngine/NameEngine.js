@@ -36,18 +36,16 @@ return(
 <section className="names-widget">
 <InputBox  addkeys={this.addkeys} />
 <Totems filtered={ this.state.filtered }/>
-<span className="name-body">
-<div className="col-lg-5 shortlist-Space"><ShortlistedDcard favorites={ this.state.favorites } filtered={ this.state.filtered }/></div>
-<div className="col-lg-7 allNames">
-<div className="shortlists" placeholder="click an item to view details">
 {
-    // <Shortlists favorites={ this.state.favorites } filtered={ this.state.filtered } />
+// <div className="shortlists" placeholder="click an item to view details">
+// <Shortlists favorites={ this.state.favorites } filtered={ this.state.filtered } />
+//  </div>
 }
-</div>
 <div className="poolOfnames">
 <Names filtered={ this.state.filtered } addfavorites={ this.addfavorites.bind(this) } />
-</div></div>
-</span>
+</div>
+<div className="shortlist-Space"><ShortlistedDcard favorites={ this.state.favorites } filtered={ this.state.filtered }/></div>
+
 </section>
 );}
 }

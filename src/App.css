@@ -187,17 +187,13 @@ height: 100px;
 	width: 80px;
 }
 
-.totems{
-    padding: 0;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
+
 
 #totem-pic{
 	padding: 1px;
     border-radius: 60%;
 }
+
 #totem-pic:hover{
 	padding: 2px;
 	border: 2px #3a8905 solid;
@@ -390,23 +386,8 @@ margin: 0 auto 0
 
 .lineup{display: flex;}
 
-.card-body
-{
-	overflow-x: hidden;
-    width: 270px;
-    /*height: 290px;*/
-    border-radius: 10px;
-    box-shadow: 1px 1px 50px #87a841;
-}
 
-#Card-cont{
-    height: 290px;
-    width: 285px;
-    padding: 5px 5px;
 
-    overflow-x: hidden;
-    border-radius: 15px;
-}
 
 .shortlists{
 	padding: 2px;
@@ -424,38 +405,12 @@ overflow: scroll;
     margin: 0;
     align-content: flex-start;
 }
-.cardimg 
-{
-    transform: rotate(-7deg);
-    margin: -15px 0px 0px 10px;
-    width: 290px;
-}
-
-#akabiro{
-	padding: 40px 5px 0px;
-	float: right;
-		color: #87a841;
-	font-weight: bold;
-	font-size: 15px;
-
-}
 
 
-.akabiroDiv{
-    margin: -25px 10px 0 0 ;
-    display: flex;
-    width: 230px;
 
-}
 
 /*.akabiDV{margin-left: 0px}*/
 
-.akabiroimg
-{
-width: 70px;
-    border-radius: 90%;
-    border: 3px white solid;
-}
 
 .col-lg-9, .col-lg-3{padding: 0}
 
@@ -465,10 +420,6 @@ width: 70px;
 	font-size: 23px;
 }
 
-.card-data{
-margin: -5px 0px 0px -5px;
-/*overflow: scroll;*/
-}
 
 #nam{
     padding: 0;
@@ -512,7 +463,7 @@ margin: -5px 0px 0px -5px;
 
 
 /*this is for tablet screen ================================================================================================================================*/ 
-@media only screen and (min-width: 768px){
+@media only screen and ( min-width: 768px){
 .container{ width: 80%; margin: 0 auto; }
 .components{ display: flex; }
 .projComp{width: 100%}
@@ -525,8 +476,8 @@ margin: -5px 0px 0px -5px;
 .footerData{display: flex;}
 .footerparts{ margin: 20px 0px 10px; width: 30%; }
 
-/*#phnnumbers{ font-size: 18px }*/
-
+.imgDiv{ min-height: 300px; }
+.cardimg { margin-top: -40px;  }
 
 
 
@@ -534,7 +485,7 @@ margin: -5px 0px 0px -5px;
 /*this is for phone screen================================================================================================================================*/ 
 @media only screen and (min-width: 375px){
 
-.components{ max-width: 80%; margin: 0 auto;}
+.components{ max-width: 80%; margin: 0 auto; }
  .projComp{
     border: none;
     background-color: rgba(255,255,255,0.99);
@@ -568,36 +519,26 @@ margin: -5px 0px 0px -5px;
   .tab-list-active {
     font-weight: bold;
     border-bottom: 3px #3a8905 solid;}
+/*for one to display an object over the other use table header and footer */
+
+.totems{ padding: 0; display: flex; overflow-x: scroll; overflow-y: hidden }
+/*.name-body{display: table-header-group;}*/
+.shortlist-Space{ /*width: 100px;*/ padding:0; background-color: rgba(255,255,255,0.1); /*display: table-footer-group;*/}
+.card-body{ overflow-x: hidden; border-radius: 10px; box-shadow: 1px 1px 50px #87a841; }
+#Card-cont{ height: 300px;  padding: 5px 5px; overflow-x: hidden; border-radius: 15px; }
+
+.imgDiv{  /*margin-left: -30px; */ width: 130%;  height: 220px; transform: rotate(7deg); overflow: hidden; }
+.cardimg {transform: rotate(-7deg); margin: -20px auto 0;  width: 100% }
 
 
-
-
-
-.name-body{ padding:0;margin: 0; display: table;}
-
-.allNames{display: table-header-group;}
-.shortlist-Space{ width: 285px; padding:0; background-color: rgba(255,255,255,0.1); display: table-footer-group;}
-.poolOfnames{ max-width: 34%;  height: 40px; padding: 0 4px 0 4px; display: flex; overflow-x: scroll; }
-
-.names-widget{
-    height: 460px;
-    padding: 5px 10px;
-    background-color: rgba(255,255,255, 0.8);
-}
-
-
-
-
-
-    .aboutSection{ padding: 10px 0px 30px;
-    width: 100%;
-    background-color: rgba(255,255,255,0.99);
-    box-shadow: 1px 1px 30px black;
-    transform: skewY(2deg);
-    margin-bottom: 60px;
-}
-    .no-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
-    .flexa{ margin: 50px auto 50px; }
+.akabiroDiv{ margin: -25px 0px 10px 0; z-index: 1; float: right; position: relative; display: flex;  }
+#akabiro{ padding: 40px 5px 0px; /*float: right;*/ color: #87a841; font-weight: bold; font-size: 15px; width: 120px; }
+.akabiroimg{ width: 70px; border-radius: 90%; border: 3px white solid; position: relative; }
+.poolOfnames{ padding: 2px 5px 8px 5px; display: flex; overflow-x: scroll; overflow-y: hidden }
+.names-widget{height: 460px; padding: 5px 10px; background-color: rgba(255,255,255, 0.8); }
+.aboutSection{ padding: 10px 0px 30px; width: 100%; background-color: rgba(255,255,255,0.99); box-shadow: 1px 1px 30px black; transform: skewY(2deg);  margin-bottom: 60px; }
+.no-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
+.flexa{ margin: 50px auto 50px; }
 
     #adboard{
     margin: 20px 0 0 0;

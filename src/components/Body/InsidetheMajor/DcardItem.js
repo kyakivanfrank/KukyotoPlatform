@@ -8,8 +8,8 @@ import React from "react";
   </div>
 
 <div className="akabiroDiv">
-<div className="col-lg-9"><h4 id="akabiro" >{akabbiro}</h4></div>
-<div className="col-lg-3 akabiDV"><img className="akabiroimg " src={akifananyikyakabbiro} alt="omuziro"/></div>
+   <h4 id="akabiro" >{akabbiro}</h4>
+<img className="akabiroimg " src={akifananyikyakabbiro} alt="omuziro"/>
 </div>
   <div className="card-data">
   <h1 id="nam" style={{fontWeight: "bolder", color: boy ? 'lightblue':'pink' }}>{erinnya}</h1>
