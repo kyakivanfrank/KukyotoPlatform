@@ -21,9 +21,7 @@ margin: 5px auto 0px;}
     margin: 50px auto 50px;
 }*/
 
-.name-body{
-    margin-top: 2px;
-}
+
 
 #nameItem-span{
 	margin: 0;
@@ -34,11 +32,7 @@ section
     border-radius: 2px;
 }
 
-.shortlist-Space{
-	width: 285px;
-	padding:0;
-	background-color: rgba(255,255,255,0.1);
-}
+
 
 #instructions{
 	color: orange;
@@ -362,11 +356,6 @@ mm
     border-radius: 10px;
 
 }
-.names-widget{
-	height: 405px;
-    padding: 5px 10px;
-    background-color: rgba(255,255,255, 0.8);
-}
 
 
 
@@ -579,6 +568,26 @@ margin: -5px 0px 0px -5px;
   .tab-list-active {
     font-weight: bold;
     border-bottom: 3px #3a8905 solid;}
+
+
+
+
+
+.name-body{ padding:0;margin: 0; display: table;}
+
+.allNames{display: table-header-group;}
+.shortlist-Space{ width: 285px; padding:0; background-color: rgba(255,255,255,0.1); display: table-footer-group;}
+.poolOfnames{ max-width: 34%;  height: 40px; padding: 0 4px 0 4px; display: flex; overflow-x: scroll; }
+
+.names-widget{
+    height: 460px;
+    padding: 5px 10px;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+
+
+
 
     .aboutSection{ padding: 10px 0px 30px;
     width: 100%;

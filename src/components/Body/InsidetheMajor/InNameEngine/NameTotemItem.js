@@ -6,7 +6,7 @@ export default ({erinnya, omuziro, id, boy})=>{
   const getStyle =()=>{ 
     return { 
       padding : '2px 10px',
-      margin: '2px',
+      margin: '1px',
       background : "white",
       borderColor : boy ? 'lightblue' : 'pink',
       borderWidth: '5px',
