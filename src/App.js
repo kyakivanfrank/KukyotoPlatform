@@ -9,6 +9,8 @@ import StartPage from "./components/Body/StartPage/StartPage";
 import Major from "./components/Body/Major";
 import { div } from 'reactstrap';
 
+import Devsection from "./components/Body/Devsection";
+
 class App extends React.Component
 {
   constructor(props)
@@ -29,6 +31,7 @@ return <div >
 </BrowserRouter>
 
 <About/>
+<Devsection/>
 <Donation/>
 <FooterComp/>
 </div>
