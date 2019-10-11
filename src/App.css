@@ -428,15 +428,7 @@ overflow: scroll;
     
 }
 
-.imgDiv{
 
-    margin-top: -70px;
-    margin-left: -30px;
-    width: 315px;
-    height: 210px;
-    transform: rotate(7deg);
-    overflow: hidden;
-}
 
 
 #ebirala
@@ -455,15 +447,17 @@ overflow: scroll;
 @media only screen and ( min-width: 1024px){
 
 .container{ width: 100%; margin: 0 auto; }
-#devpic{width: 30%; border-radius: 100%; }
+#devpic{width: 20%; min-height: 210px; border-radius: 100%; }
 .flexa{ padding: 30px 0 30px 0; display: flex; }
  #adboard{  min-height: 400px; }
-
- .NamesBinder{ display: flex; }
+ .NamesBinder{ display: flex; display: table }
 .poolOfnames{ display: table-footer-group; }
 .shortlist-Space{ display: table-header-group; }
+#professions{ font-size: 20px; }
+.Devs{display: flex; margin: 0 auto;  }
+.imgDiv{ margin-top: -70px; margin-left: -30px; width: 300px; height: 210px; transform: rotate(7deg); overflow: hidden; }
 
-#professions{ font-size: 20px;  padding: px;  }
+
 
 
 
@@ -479,7 +473,7 @@ overflow: scroll;
 .components{ display: flex; }
 .projComp{width: 100%}
 .no-skew{width: 80%;}
-#devpic{ min-width: 45%; border-radius: 100%; }
+#devpic{ min-width: 40%; height: 110px; border-radius: 100%; /**/; }
 .Devs{display: flex;}
 .writebox{ display: flex; margin-bottom: 40px }
 .donation{ padding: 10px 2px; width: 120%; border-right: 2px darkgreen solid;  }
@@ -534,13 +528,12 @@ overflow: scroll;
 
 .totems{ padding: 0; display: flex; overflow-x: scroll; overflow-y: hidden }
 /*.name-body{display: table-header-group;}*/
-.shortlist-Space{ /*width: 100px;*/ padding:0; background-color: rgba(255,255,255,0.1); /*display: table-footer-group;*/}
+.shortlist-Space{  padding:0; background-color: rgba(255,255,255,0.1);}
 .card-body{ overflow-x: hidden; border-radius: 10px; box-shadow: 1px 1px 50px #87a841; }
 #Card-cont{ height: 300px;  padding: 5px 5px; overflow-x: hidden; border-radius: 15px; }
 
-.imgDiv{  /*margin-left: -30px; */ width: 130%;  height: 220px; transform: rotate(7deg); overflow: hidden; }
+.imgDiv{ margin-top: -70px; margin-left: -30px; min-width: 130%; height: 210px; transform: rotate(7deg); overflow: hidden; }
 .cardimg {transform: rotate(-7deg); margin: -20px auto 0;  width: 100% }
-
 
 .akabiroDiv{ margin: -25px 0px 10px 0; z-index: 1; float: right; position: relative; display: flex;  }
 #akabiro{ padding: 40px 5px 0px; /*float: right;*/ color: #87a841; font-weight: bold; font-size: 15px; width: 120px; }
@@ -548,16 +541,18 @@ overflow: scroll;
 .poolOfnames{ padding: 2px 5px 8px 5px; display: flex; overflow-x: scroll; overflow-y: hidden }
 .names-widget{height: 460px; padding: 5px 10px; background-color: rgba(255,255,255, 0.8); margin-bottom: 20px; }
 .aboutSection{ padding: 10px 0px 30px; width: 100%; background-color: rgba(255,255,255,0.99); box-shadow: 1px 1px 30px black; transform: skewY(2deg);  margin-bottom: 60px; }
+.devSection{ padding: 10px 0px 30px; width: 100%; background-color: rgba(255,255,255,0.99); /*box-shadow: 1px 1px 30px black;*/ /*transform: skewY(2deg);*/  margin-bottom: 60px; }
 .no-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
+.dev-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
 
  #adboard{ margin: 0 0 20px 0; height: 200px; background-color: white; }
 
 
 #DevTitle{ color: green; margin: 30px auto 0; font-size: 23px; font-weight: bold; }
 .devflex{ display: flex;}
-#devpic{ max-width: 50%; border-radius: 100%;}
-.devbox{ padding: 10px; border: 1px green solid; margin: 5px 2px; }
-.devstats{ margin: 20px 0 0 10px; }
+#devpic{ max-width: 50%; border-radius: 100%; transform: skewX(2deg)}
+.devbox{ padding: 10px; border: 1px green solid; margin: 5px 2px;  }
+.devstats{ margin: 20px 0 0 10px; max-height: 20px; }
 .devProBox{  height: 100px; padding:12px 2px; }
 #devParagraph{margin: 15px 5px;}
 #professions{ font-size: 12px; font-weight: bold; color: #ffffff; background-color: lightblue; margin: 5px 2px; padding: 5px; border-radius: 10px; }
