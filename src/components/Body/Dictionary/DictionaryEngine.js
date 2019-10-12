@@ -23,7 +23,7 @@ filteredFirestoreObjsList : ["this is a void state /  nothing is kept in here"]
 RetrievefirestoreData = (keys) =>{
     firebase.firestore().collection("Dictionary").get()
     .then(querySnapshot => { this.setState( { filteredFirestoreObjsList :
-              querySnapshot.docs.map( doc => [doc.id, doc.data()]
+              querySnapshot.docs.map( doc => [ doc.data() ] // if you want you can fetch the object id by doc.id
               )
         
             });
@@ -36,14 +36,16 @@ RetrievefirestoreData = (keys) =>{
         this.RetrievefirestoreData();
     }
 
-        addfavoriteWords=id=>
-        {   const favWordsList = this.state.favoriteWords.concat([id]); 
+        addfavoriteWords=key=>
+        {   const favWordsList = this.state.favoriteWords.concat([key]); 
             this.setState( { favoriteWords : favWordsList } )
         };
 
+
+
 render(){
 
-// console.log(this.state.filteredFirestoreObjsList)
+// console.log(this.state.filteredFirestoreObjsList[3])
 
     return <section className="names-widget">
         <InputBox addkeys={this.RetrievefirestoreData} />

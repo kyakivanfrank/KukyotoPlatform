@@ -14,7 +14,6 @@ export default ()=><section className="devSection">
     </div>
     </div>
     <div className="container">mpozzi ne bano wammanga beebayambako okukola project eno</div>
-
     </section>
     
 

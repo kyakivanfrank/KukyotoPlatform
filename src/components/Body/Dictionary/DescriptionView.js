@@ -15,11 +15,7 @@ export default ({favoriteWords, filteredFirestoreObjsList}) => {
     }
 
     const favWord = favoriteWords.map( id => {
-        const chosenitem = filteredFirestoreObjsList[id];
-        console.log(id)
-       return < DescrViewItem 
-    //    key={id.index} 
-       chosenitem={chosenitem} />
+       return < DescrViewItem key={id} chosenitem={ filteredFirestoreObjsList[id] } />
     });
 
 return <div id="descArea">
