@@ -6,18 +6,22 @@ export default ()=> <footer>
 <div className="footing">
 
 <div className="container footerData">
+
 <div className="footerparts">
-social media
+we look forward to do business with you if youhave any ideas
+any vital info goes here
 </div>
 
 <div className="footerparts">
-terms and constions
+fot info contact us on email address kukyoto platform.
+terms and condtions will display in a modal on the screen in the link below
 </div>
 
 <div className="footerparts">
 </div>
 
 <div className="footerparts">
+<div>goes a logo kukyoto</div>
 twitter facebook  whatsapp Group  
 </div>
 

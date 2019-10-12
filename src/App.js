@@ -22,6 +22,7 @@ class App extends React.Component
   render (){
 return <div >
 <Navigation />
+<div>please subscribe as a floating component/ someone can't comment before subscribing</div>
 
   <BrowserRouter>
   <Switch >
@@ -29,7 +30,6 @@ return <div >
 <Route  exact path="/Major" component={ Major }/>
 </Switch>
 </BrowserRouter>
-
 <About/>
 <Devsection/>
 <Donation/>

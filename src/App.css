@@ -454,7 +454,8 @@ overflow: scroll;
 .poolOfnames{ display: table-footer-group; }
 .shortlist-Space{ display: table-header-group; }
 #professions{ font-size: 20px; }
-.Devs{display: flex; margin: 0 auto;  }
+.Devs{display: flex; margin: -80px auto; transform: scale(0.75); }
+.devSection{ }
 .imgDiv{ margin-top: -70px; margin-left: -30px; width: 300px; height: 210px; transform: rotate(7deg); overflow: hidden; }
 
 
@@ -476,7 +477,7 @@ overflow: scroll;
 #devpic{ min-width: 40%; height: 110px; border-radius: 100%; /**/; }
 .Devs{display: flex;}
 .writebox{ display: flex; margin-bottom: 40px }
-.donation{ padding: 10px 2px; width: 120%; border-right: 2px darkgreen solid;  }
+.donation{ padding: 10px 2px; width: 120%;  }
 .footing{background-color: darkgreen;}
 .footerData{display: flex;}
 .footerparts{ margin: 20px 0px 10px; width: 30%; }
@@ -488,7 +489,7 @@ overflow: scroll;
 
 }
 /*this is for phone screen================================================================================================================================*/ 
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 240px){
 
 .components{ max-width: 80%; margin: 0 auto; }
  .projComp{
@@ -565,7 +566,7 @@ p{ justify-content: all;}
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); }
 
-.donation{ padding: 10px; border-bottom: 2px darkgreen solid;}
+.donation{ padding: 10px; border: 2px lightgreen solid; margin: 5px;}
 
 
 #phnnumbers{
