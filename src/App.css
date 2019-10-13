@@ -92,7 +92,7 @@
 
 
 .card-body{ overflow-x: hidden; border-radius: 10px; box-shadow: 1px 1px 50px #87a841;  border: 1px #87a841 solid; }
-#Card-cont{ height: 300px;  padding: 5px 5px; overflow-x: hidden; border-radius: 15px; }
+#Card-cont{ /*max-height: 300px;*//*to create a scroll*/  padding: 5px 5px; overflow-x: hidden; border-radius: 15px; }
 
 .imgDiv{ margin-top: -70px; margin-left: -30px; min-width: 130%; height: 210px; transform: rotate(7deg); overflow: hidden; }
 .cardimg {transform: rotate(-7deg); margin: -20px auto 0;  width: 100% }
