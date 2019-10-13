@@ -13,7 +13,6 @@ export default ({Word, id , addfavoriteWords})=> {
           borderRadius: '9px',
           borderStyle: 'none'
           }}
-          console.log(id)
 
           return <span > <button onClick={()=> addfavoriteWords(id)}
            style={getStyle()}> { Word } </button> </span> 

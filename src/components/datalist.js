@@ -26,7 +26,7 @@ const datalist ={
                akifananyikyakabbiro: Picture, 
                omukuluwekika: "wsdfss" , 
                amasiga: "sfdds", 
-               emirimu: "fkdsjhlkfd "},
+               emirimu: "kdsjhlkfd"},
 
 
   

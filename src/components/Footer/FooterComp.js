@@ -13,7 +13,7 @@ any vital info goes here
 </div>
 
 <div className="footerparts">
-fot info contact us on email address kukyoto platform.
+fot info contact us on email address kukyoto platform. contact numbers are displayed
 terms and condtions will display in a modal on the screen in the link below
 </div>
 
