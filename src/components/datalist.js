@@ -1,7 +1,83 @@
  import  Picture  from "../components/img/check1.png";
  import  enkima  from "../components/img/enkima.jpg";
+ import NjazaPic  from "../components/img/enkima.jpg";
 
 const datalist ={
+	FirebaseTotemsData:
+	[
+	{
+		TotemName: "njaza",
+		TotemPic: NjazaPic,
+		TotemDesciption: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
+		TotemKabiro: "kikere",
+		KabiroPic: NjazaPic,
+		Omubala: "khnlkcylksjhlkfj  fkjhdkjf",
+		TotemEmirimu: ["kjhkjhkj","kjkjkj"],
+		Mukuluwekika: "tutu desmond",
+		TotemMasiga: "kfjskjfdb",
+		TotemNamesList: [
+		{ name: "mukabya", boy: true, NameDescription: "this name is means kill" },
+		{ name: "mukubya", boy: false, NameDescription: "this name is means kill" },
+		{ name: "merenge", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mupaka", boy: true, NameDescription: "this name is means kill" },
+		{ name: "minoso", boy: true, NameDescription: "this kjfkdjndkjnfkd" },
+		{ name: "kapiipo", boy: true, NameDescription: "this name is means kill" },
+		{ name: "kimuli", boy: false, NameDescription: "this name is means kill" },
+		{ name: "karekwa", boy: false, NameDescription: "this name is means kill" },
+		{ name: "simioni", boy: true, NameDescription: "this name is means kill" }]
+	},
+	{
+		TotemName: "njaza",
+		TotemPic: NjazaPic,
+		TotemDesciption: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
+		TotemKabiro: "kikere",
+		KabiroPic: NjazaPic,
+		Omubala: "khnlkcylksjhlkfj  fkjhdkjf",
+		TotemEmirimu: ["kjhkjhkj","kjkjkj"],
+		Mukuluwekika: "tutu desmond",
+		TotemMasiga: "kfjskjfdb",
+		TotemNamesList: [
+		{ name: "mukabya", boy: true, NameDescription: "this name is means kill" },
+		{ name: "mukubya", boy: false, NameDescription: "this name is means kill" },
+		{ name: "merenge", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mupaka", boy: true, NameDescription: "this name is means kill" },
+		{ name: "minoso", boy: true, NameDescription: "this kjfkdjndkjnfkd" },
+		{ name: "kapiipo", boy: true, NameDescription: "this name is means kill" },
+		{ name: "kimuli", boy: false, NameDescription: "this name is means kill" },
+		{ name: "karekwa", boy: false, NameDescription: "this name is means kill" },
+		{ name: "simioni", boy: true, NameDescription: "this name is means kill" }]
+	},
+
+
+],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    nameprojectDatalist :[
 
       { id:0,

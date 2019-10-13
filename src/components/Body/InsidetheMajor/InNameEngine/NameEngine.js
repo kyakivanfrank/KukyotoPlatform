@@ -7,13 +7,6 @@ import Totems from "../TotemEngine/Totems";
 import datalist from "../../../../components/datalist";
 import ShortlistedDcard from '../ShortlistedDcard';
 
-// import firebase from '../../../../firebase';
-
-// firebase.firestore().collection('mytrialCollection').add({
-//     title : 'this is my title thislkjbsdl',
-//     name : 'kyakuse frank ivan'
-// });
-
 class NameEngine extends React.Component{
 
         constructor(props)
@@ -21,6 +14,7 @@ class NameEngine extends React.Component{
         this.state = {
             filtered: datalist.nameprojectDatalist.filter(name => name.erinnya.includes('')),
             favorites : []}} 
+
         addkeys=(keys)=>{
             this.setState( { filtered: datalist.nameprojectDatalist.filter( name => name.erinnya.includes(keys)) } );
             };  // keyboard input
