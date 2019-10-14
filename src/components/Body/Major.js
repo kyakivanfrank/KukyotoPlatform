@@ -1,5 +1,6 @@
 import React from 'react';
-    import NameEngine from './InsidetheMajor/InNameEngine/NameEngine';
+    // import NameEngine from './InsidetheMajor/InNameEngine/NameEngine';
+    import Totems from './InsidetheMajor/TotemEngine/Totems';
     import DictionaryEngine from "./Dictionary/DictionaryEngine";
 
     import Tabs from './inTheTabs/Tabs';
@@ -9,7 +10,14 @@ const Major =(props)=>
 <div className="col-lg-8">
      <Tabs>
       <div label="Amannya ne miziro">
-   < NameEngine />
+      <Totems/>
+
+
+
+{ /* < NameEngine />*/}
+
+
+
       </div>
       <div label="Dikisonare yo Luganda">
       <DictionaryEngine/>
