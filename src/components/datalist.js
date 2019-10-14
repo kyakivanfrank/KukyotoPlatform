@@ -8,7 +8,7 @@ const datalist ={
 	{
 		TotemName: "njaza",
 		TotemPic: NjazaPic,
-		TotemDesciption: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
+		TotemDescription: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
 		TotemKabiro: "kikere",
 		KabiroPic: NjazaPic,
 		Omubala: "khnlkcylksjhlkfj  fkjhdkjf",
@@ -19,34 +19,58 @@ const datalist ={
 		{ name: "mukabya", boy: true, NameDescription: "this name is means kill" },
 		{ name: "mukubya", boy: false, NameDescription: "this name is means kill" },
 		{ name: "merenge", boy: false, NameDescription: "this name is means kill" },
-		{ name: "mupaka", boy: true, NameDescription: "this name is means kill" },
+		{ name: "mupaka", boy: true, NameDescription: "this name is kill" },
 		{ name: "minoso", boy: true, NameDescription: "this kjfkdjndkjnfkd" },
 		{ name: "kapiipo", boy: true, NameDescription: "this name is means kill" },
 		{ name: "kimuli", boy: false, NameDescription: "this name is means kill" },
 		{ name: "karekwa", boy: false, NameDescription: "this name is means kill" },
 		{ name: "simioni", boy: true, NameDescription: "this name is means kill" }]
 	},
+
 	{
-		TotemName: "njaza",
+		TotemName: "nsenene",
 		TotemPic: NjazaPic,
-		TotemDesciption: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
-		TotemKabiro: "kikere",
+		TotemDescription: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
+		TotemKabiro: "mulugwara",
 		KabiroPic: NjazaPic,
 		Omubala: "khnlkcylksjhlkfj  fkjhdkjf",
 		TotemEmirimu: ["kjhkjhkj","kjkjkj"],
-		Mukuluwekika: "tutu desmond",
-		TotemMasiga: "kfjskjfdb",
+		Mukuluwekika: "kipara",
+		TotemMasiga: "kdjskdjfjskjfdb",
 		TotemNamesList: [
-		{ name: "mukabya", boy: true, NameDescription: "this name is means kill" },
-		{ name: "mukubya", boy: false, NameDescription: "this name is means kill" },
-		{ name: "merenge", boy: false, NameDescription: "this name is means kill" },
-		{ name: "mupaka", boy: true, NameDescription: "this name is means kill" },
-		{ name: "minoso", boy: true, NameDescription: "this kjfkdjndkjnfkd" },
-		{ name: "kapiipo", boy: true, NameDescription: "this name is means kill" },
-		{ name: "kimuli", boy: false, NameDescription: "this name is means kill" },
-		{ name: "karekwa", boy: false, NameDescription: "this name is means kill" },
-		{ name: "simioni", boy: true, NameDescription: "this name is means kill" }]
+		{ name: "mpoza", boy: true, NameDescription: "this name is means kill" },
+		{ name: "misambwa", boy: false, NameDescription: "this name is means kill" },
+		{ name: "kibuule", boy: true, NameDescription: "this name is means kill" },
+		{ name: "kyakusse", boy: true, NameDescription: "this name is means kill" },
+		{ name: "mpindi", boy: true, NameDescription: "this kjfkdjndkjnfkd" },
+		{ name: "kapiipo", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mbuliro", boy: false, NameDescription: "this name is means kill" },
+		{ name: "nkopera", boy: true, NameDescription: "this name is means kill" },
+		{ name: "luwagga", boy: true, NameDescription: "this name is means kill" }]
 	},
+
+	{
+		TotemName: "Ffumbe",
+		TotemPic: NjazaPic,
+		TotemDescription: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
+		TotemKabiro: "masereka",
+		KabiroPic: NjazaPic,
+		Omubala: "khnlkcylksjhlkfj  fkjhdkjf",
+		TotemEmirimu: ["kjhkjhkj","kjkjkj"],
+		Mukuluwekika: "nkabiddwa",
+		TotemMasiga: "kdjskdjfjskjfdb",
+		TotemNamesList: [
+		{ name: "mukasa", boy: true, NameDescription: "this name is means kill" },
+		{ name: "kimbowa", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mbaziira", boy: true, NameDescription: "this name is means kill" },
+		{ name: "musoke", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mpindi", boy: false, NameDescription: "this kjfkdjndkjnfkd" },
+		{ name: "mpimbira", boy: false, NameDescription: "this name is means kill" },
+		{ name: "mbuliro", boy: false, NameDescription: "this name is means kill" },
+		{ name: "nkata", boy: false, NameDescription: "this name is means kill" },
+		{ name: "luwugge", boy: false, NameDescription: "this name is means kill" }]
+	},
+
 
 
 ],
