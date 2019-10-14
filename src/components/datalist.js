@@ -626,7 +626,7 @@ const datalist ={
          { name: "karekwa", boy: false, NameDescription: "this name is means kill" },
          { name: "simioni", boy: true, NameDescription: "this name is means kill" }]
       },{
-         TotemName: "Mazzi ga kisasi",
+         TotemName: "nsuma",
          TotemPic: NjazaPic,
          TotemDescription: "jhf kjbhgsdkjhnkdsjhlkjhsd fskjhkfsdjghds",
          TotemKabiro: "kikere",
