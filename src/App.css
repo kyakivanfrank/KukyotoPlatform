@@ -83,7 +83,7 @@
     border-bottom: 3px #3a8905 solid;}
 /*for one to display an object over the other use table header and footer */
 
-.totems{ max-height: 50%; padding: 0; display: flex; overflow-x: scroll; overflow-y: hidden }
+.totems{ padding: 0; display: flex; overflow-x: scroll; overflow-y: hidden }
 /*.name-body{display: table-header-group;}*/
 
 .NamesBinder{  }
@@ -304,58 +304,56 @@ height: 100px;
 
  
  .mzirochippic{
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 45px; 
+    border-radius: 60%;
+    width: 40px; 
 }
 
+/*#myButton{
+
+    background-color: red;
+    padding: 30px;
+}
+*/
 
 .totem-btn
 {
     padding: 1px;
     background: none;
     border: none;
-    max-width: 100%;
-    /*height: 65px;*/
+    width: 80px;
+    height: 65px;
 }
-
-
-/*#totembtn-span{margin: 0 auto}*/
 
 .green-colored{
     color: #3a8905;
     font-weight: bold;
-    max-width: 100%;
-    max-height: 25px;
+    /*height: 5px;*/
 
 }
 
 .green-colored:hover{
     color: darkgreen;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
 .totem-btn:hover
 {
     padding-bottom: 5px;
-    /*width: 100%;*/
-    margin: 
+    width: 80px;
 }
 
 
-#totem-pic{
-    max-width: 100%;
-    /*padding: 0px;*/
-    padding: 2px;
 
+#totem-pic{
+    padding: 1px;
     border-radius: 60%;
 }
 
 #totem-pic:hover{
     padding: 2px;
     border: 2px #3a8905 solid;
-    /*box-shadow: 0px 0px 2px #3a8905;*/
+    box-shadow: 0px 0px 2px #3a8905;
 
 }
 

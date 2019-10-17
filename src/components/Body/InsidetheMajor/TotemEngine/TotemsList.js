@@ -1,11 +1,24 @@
 import React from "react";
 import TotemItem from "./TotemItem";
+import NameEngine from '../InNameEngine/NameEngine';
 
 
-export default ({ filteredTotemsData }) => {
 
-    const availableones = filteredTotemsData.map( totem => {
-         return <TotemItem key={totem.id} totem={totem}  /> 
-        })
-    return <div className="totems">{availableones}</div> 
-        }
+class TotemsList extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = { totems : this.props.filteredTotemsData }
+    }
+
+render(){
+    return (
+        <div>
+        <div className="totems">
+        { this.state.totems.map( totem => { return <TotemItem key={totem.index} totem={totem}  /> }) }
+        </div> 
+        < NameEngine totems={this.state.totems}/>
+        </div>
+
+    )
+}}
+export default TotemsList;

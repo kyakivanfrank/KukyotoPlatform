@@ -4,8 +4,8 @@ import NameItem  from './NameItem';
 
 export default ({ filtered, addfavorites })=> {
 
-  return filtered.map( nem => ( <NameItem key={ nem.id } 
-    addfavorites={addfavorites} nem={nem}/>));
+  return filtered.map( name => ( <NameItem key={ name.id } 
+    addfavorites={addfavorites} name={name}/>));
     
   }
   
