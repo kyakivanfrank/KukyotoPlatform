@@ -2,7 +2,6 @@ import React from 'react';
 import { section } from 'reactstrap';
 import Names from "./Names";
 import InputBox from "../InputBox";
-// import Shortlists from "../Shortlists";
 import Totems from "../TotemEngine/Totems";
 import datalist from "../../../../components/datalist";
 import ShortlistedDcard from '../ShortlistedDcard';
@@ -30,11 +29,7 @@ return(
 <section className="names-widget">
 <InputBox  addkeys={this.addkeys} />
 <Totems filtered={ this.state.filtered }/>
-{
-// <div className="shortlists" placeholder="click an item to view details">
-// <Shortlists favorites={ this.state.favorites } filtered={ this.state.filtered } />
-//  </div>
-}
+
 <div className="NamesBinder">
 <div className="shortlist-Space"><ShortlistedDcard favorites={ this.state.favorites } filtered={ this.state.filtered }/></div>
 <div className="poolOfnames"><Names filtered={ this.state.filtered } addfavorites={ this.addfavorites.bind(this) } /></div>
