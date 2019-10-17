@@ -2,7 +2,7 @@ import React from 'react';
 import { section } from 'reactstrap';
 import Names from "./Names";
 // import InputBox from "../InputBox";
-import datalist from "../../../../components/datalist";
+// import datalist from "../../../../components/datalist";
 // import ShortlistedDcard from '../ShortlistedDcard';
 
 class NameEngine extends React.Component{
@@ -10,10 +10,10 @@ class NameEngine extends React.Component{
         constructor(props)
         {super(props);
         this.state = {
-        totemsData : this.props.totems.map(totem => totem.TotemNamesList
-         .filter(randomTotemName => randomTotemName.name)),
-            filtered: datalist.nameprojectDatalist.filter(name => name.erinnya.includes('')),
-            favorites : []}} 
+        
+            filtered: this.props.totems.map(totem => totem.TotemNamesList
+              .filter(randomTotemNameObj => randomTotemNameObj.name.includes(''))),
+            favorites : []} } 
 
         // addkeys=(keys)=>{
         //     this.setState( { filtered: datalist.nameprojectDatalist.filter( name => name.erinnya.includes(keys)) } );
@@ -26,7 +26,7 @@ class NameEngine extends React.Component{
          }
     render(){
 
-// console.log(this.state.totemsData)
+console.log(this.state.filtered)
 return(   
 <section className="names-widget">
 
@@ -36,7 +36,10 @@ return(
 <div className="shortlist-Space">
 { /*<ShortlistedDcard favorites={ this.state.favorites } filtered={ this.state.filtered }/>*/}
 </div>
-<div className="poolOfnames"><Names filtered={ this.state.filtered } addfavorites={ this.addfavorites.bind(this) } /></div>
+<div className="poolOfnames"><Names filtered={ this.state.filtered }
+//  addfavorites={ this.addfavorites.bind(this) }
+  /></div>
+
 </div>
 
 </section>

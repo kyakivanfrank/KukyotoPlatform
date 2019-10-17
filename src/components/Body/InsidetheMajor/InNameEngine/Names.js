@@ -4,9 +4,10 @@ import NameItem  from './NameItem';
 
 export default ({ filtered, addfavorites })=> {
 
-  return filtered.map( name => ( <NameItem key={ name.id } 
-    addfavorites={addfavorites} name={name}/>));
-    
+
+ return filtered.map(TotemsNameList => TotemsNameList
+  .map(nameObj =>  < NameItem key={ TotemsNameList.indexOf( nameObj ) } /* addfavorites={addfavorites}*/  nameObj={nameObj} /> ))
+ 
   }
   
 
