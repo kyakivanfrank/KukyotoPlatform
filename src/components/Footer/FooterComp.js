@@ -1,8 +1,13 @@
 import React from "react";
+import logo from '../img/kukyotoBlack.gif';
+import Subscription from "./Subscription";
 
 export default ()=> <footer>
 
-<div className="fixed-bottom"> please add an input the gets info from the users</div>
+<div className="fixed-bottom"> 
+
+<Subscription/>
+</div>
 
 <div className="footing">
 
@@ -22,8 +27,14 @@ terms and condtions will display in a modal on the screen in the link below
 </div>
 
 <div className="footerparts">
-<div>goes a logo kukyoto</div>
-twitter facebook  whatsapp Group  
+<div><img id="footerLogo"  src={logo} alt="logo"/></div>
+<div id="socialmediaBar">
+<a href="/"><div id="whatsapp" className="socialIconz"></div></a>
+<a href="/"><div id="facebook" className="socialIconz"></div></a>
+<a href="/"><div id="twitter" className="socialIconz"></div></a>
+
+</div>
+
 </div>
 
 </div>

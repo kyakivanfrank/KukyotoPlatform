@@ -18,28 +18,32 @@
 .imgDiv{ max-height: 310px; }
 .cardimg { /*max-width: 25%;*/ }
 #Card-cont{ max-width: 300px; }
+.tab-list { width: 60%; }
+
+
+
 
 
 
 }
-
-
 /*this is for tablet screen ================================================================================================================================*/ 
 @media only screen and ( min-width: 768px){
 .container{ width: 80%; margin: 0 auto; }
 .components{ display: flex; }
 .projComp{width: 100%}
 .no-skew{width: 80%;}
-#devpic{ min-width: 40%; height: 110px; border-radius: 100%; /**/; }
+#devpic{ min-width: 40%; height: 110px; border-radius: 100%; }
 .Devs{display: flex;}
 .writebox{ display: flex; margin-bottom: 40px }
 .donation{ padding: 10px 2px; width: 120%;  }
 .footing{background-color: darkgreen;}
 .footerData{display: flex;}
-.footerparts{ margin: 20px 0px 10px; width: 30%; color: orange; }
-
+.footerparts{ margin: 20px 0px 10px; width: 30%; color: orange; font-size: 12px; }
 .imgDiv{ /*width: 115%;*/  min-height: 130%;  }
-.cardimg {  margin-top: -10px }
+.cardimg{ margin-top: -10px }
+.tab-list { max-width: 75%; margin: 0 auto; }
+
+
 
 
 
@@ -57,13 +61,13 @@
     height: 250px;
     border-radius: 10px;
     box-shadow: 1px 3px 10px black;}
-.projComp:hover{background-color: rgba(255,255,255,0.95);}
+.projComp:hover { background-color: rgba(255,255,255,0.95); }
 #title{ color: green; margin-top: 150px; font-size: 24px; font-weight: bold; }
-.tabs{background-color: rgba(255,255,255,0.8);}
+.tabs{ background-color: rgba(255,255,255,0.8); }
 
 .tab-list {
     padding: 0;
-    margin: 0 auto;
+    margin-bottom: 0px;
     display: flex;
 }
 
@@ -118,16 +122,13 @@
 #devParagraph{margin: 15px 5px;}
 #professions{ font-size: 12px; font-weight: bold; color: #ffffff; background-color: lightblue; margin: 5px 2px; padding: 5px; border-radius: 10px; }
 p{ justify-content: all;}
+#footerLogo{width: 70px; margin: 10px; opacity: 0.3;}
 
-
-.writebox{
-    background-color: white;
-    opacity: 0.9;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); }
+.writebox{ background-color: white; opacity: 0.9; border-radius: 4px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); }
 
 .donation{ padding: 10px; border: 2px lightgreen solid; margin: 5px;}
 
+.subscriptionForm{margin: 0 0 50px 100px; background-color: lightgreen; max-width: 300px; padding: 10px; border-radius: 5px}
 
 #phnnumbers{
     padding: 5px;
@@ -169,9 +170,8 @@ body{
 strong{color: green}
 
 
-.navInput
-{height: 25px;
-margin: 5px auto 0px;}
+.subscrInput
+{ border: 3px green solid; height: 40px; border-radius: 5px; margin: 5px; }
 
 /*.flexa{
     display: flex;
@@ -204,7 +204,7 @@ section
     background-color: rgba(255,255,255,0.99);
     height: 150px;
     /*box-shadow: 1px 1px 1px lightgreen;*/
-    border-bottom: 10px orange solid;
+    border-bottom:10px rgba(255,165,0,0.7) solid;
 }
 #rotated-div:hover
 {
@@ -244,7 +244,7 @@ font-size: 18px;
 }
 
 
-
+.flexa {margin-top: 130px;}
 
 
 .lowest{
@@ -277,6 +277,16 @@ font-size: 18px;
 {
     display: flex;
 }
+
+#socialmediaBar{ display: flex; }
+#whatsapp{ background-position-x: -41px; background-position-y: 803px; }
+#facebook{ background-position-x: -9px; background-position-y: -5px; }
+#twitter{ background-position-x: -9px; background-position-y: 399px; }
+
+
+
+.socialIconz{ background-image: url("./components/img/socialMedia.png"); width: 32px; height: 32px; background-size: 110px; margin:2px; }
+.socialIconz:hover{ border: 3px green solid; border-radius: 20px; transform: scale(1.2);}
 
 
 
