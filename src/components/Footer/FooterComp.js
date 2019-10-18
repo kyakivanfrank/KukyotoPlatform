@@ -2,6 +2,7 @@ import React from "react";
 
 export default ()=> <footer>
 
+<div className="fixed-bottom"> please add an input the gets info from the users</div>
 
 <div className="footing">
 

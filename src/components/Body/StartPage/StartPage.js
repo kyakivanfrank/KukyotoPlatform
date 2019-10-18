@@ -11,7 +11,7 @@ export default ()=><div className="container main-tasks" >
 <div id="donateDIV">
 
 <button class="btn btn-warning donate-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
-Tuweeyo akasiimo
+<strong>Tuweeyo akasiimo</strong>
 </button>
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"

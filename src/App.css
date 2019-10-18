@@ -36,7 +36,7 @@
 .donation{ padding: 10px 2px; width: 120%;  }
 .footing{background-color: darkgreen;}
 .footerData{display: flex;}
-.footerparts{ margin: 20px 0px 10px; width: 30%; }
+.footerparts{ margin: 20px 0px 10px; width: 30%; color: orange; }
 
 .imgDiv{ /*width: 115%;*/  min-height: 130%;  }
 .cardimg {  margin-top: -10px }
@@ -166,6 +166,7 @@ body{
     background-size: cover;
 }
 
+strong{color: green}
 
 
 .navInput
@@ -203,7 +204,7 @@ section
     background-color: rgba(255,255,255,0.99);
     height: 150px;
     /*box-shadow: 1px 1px 1px lightgreen;*/
-    /*border-bottom: 1px black solid;*/
+    border-bottom: 10px orange solid;
 }
 #rotated-div:hover
 {
@@ -228,7 +229,7 @@ section
 
 .main-tasks{
 
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
 
@@ -320,7 +321,7 @@ height: 100px;
     padding: 1px;
     background: none;
     border: none;
-    width: 80px;
+    min-width: 60px;
     height: 65px;
 }
 
@@ -347,6 +348,8 @@ height: 100px;
 
 #totem-pic{
     padding: 1px;
+    max-width: 62%;
+    margin: 0 auto;
     border-radius: 60%;
 }
 

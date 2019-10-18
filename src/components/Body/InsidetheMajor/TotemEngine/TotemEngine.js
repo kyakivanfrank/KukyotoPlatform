@@ -1,5 +1,5 @@
 import React  from  "react";
-import InputBox from "../InputBox";
+// import InputBox from "../InputBox";
 import TotemsList from "./TotemsList";
 import datalist from "../../../datalist";
 
@@ -13,16 +13,16 @@ constructor(props)
  }
 }
 
-addkeys=(keys)=>{
-    this.setState( { filteredTotemsData : datalist.FirebaseTotemsData.filter( eachTotem => eachTotem.TotemName.includes(keys)) } );
-    };  // keyboard input
+// addkeys=(keys)=>{
+//     this.setState( { filteredTotemsData : datalist.FirebaseTotemsData.filter( eachTotem => eachTotem.TotemName.includes(keys)) } );
+//     };  // keyboard input
 
     render (){
 
 return (
     <section className="names-widget">
-<InputBox  addkeys={this.addkeys} />
-<TotemsList filteredTotemsData={this.state.filteredTotemsData}/>
+{/* <InputBox  addkeys={this.addkeys} /> */}
+    <TotemsList filteredTotemsData={this.state.filteredTotemsData}/>
     </section>);
 }}
 

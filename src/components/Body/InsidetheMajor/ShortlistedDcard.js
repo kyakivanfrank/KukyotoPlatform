@@ -7,10 +7,10 @@ export default ({favorites, filtered}) => {
     {favorites.reverse()
     favorites.pop(favorites.length)
     }
-
-    const chosenName = favorites.map(id => {
+ // this art is going to be so technical needs alot of knowhow
+    const chosenName = favorites.map( id => {
         const chosen = filtered[id];
-        return <DcardItem key={chosen.id} erinnya={chosen.erinnya} boy={chosen.boy} omuziro={chosen.omuziro} akabbiro={chosen.akabbiro} 
+        return <DcardItem  erinnya={chosen.erinnya} boy={chosen.boy} omuziro={chosen.omuziro} akabbiro={chosen.akabbiro} 
         ekifananyi={chosen.ekifananyi} akifananyikyakabbiro={chosen.akifananyikyakabbiro} 
         omukuluwekika={chosen.omukuluwekika} amasiga={chosen.amasiga} emirimu={chosen.emirimu} omubala={chosen.omubala}/>
     })

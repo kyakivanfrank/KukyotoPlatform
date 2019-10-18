@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-export default ({nameObj, addfavorites})=> {
+export default ({nameObj, id, addfavorites})=> {
+
 
   const getStyle =()=>{ 
         return { 
@@ -14,12 +15,11 @@ export default ({nameObj, addfavorites})=> {
           borderStyle: 'none'
           }
         }
+        console.log(id)
 
-          return <span id="nameItem-span" ><button 
-          // onClick={()=> addfavorites(name.id)}
-           style={getStyle()}>{nameObj.name}</button>
+          return <span id="nameItem-span" ><button onClick={()=> addfavorites(id)} 
+          style={getStyle()}>{nameObj.name}</button>
            </span> 
-
 }
 
 
