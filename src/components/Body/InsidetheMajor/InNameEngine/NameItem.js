@@ -7,7 +7,7 @@ export default ({nameObj, id, addfavorites})=> {
   const getStyle =()=>{ 
         return { 
           padding : '1px 8px',
-          margin: '0px 2px 0px 2px' ,
+          margin: '0px' ,
           background : nameObj.boy ? 'lightblue' : 'pink',
           fontWeight: "bold",
           fontSize: '12px',
@@ -15,9 +15,9 @@ export default ({nameObj, id, addfavorites})=> {
           borderStyle: 'none'
           }
         }
-        console.log(id)
+        // console.log(nameObj)
 
-          return <span id="nameItem-span" ><button onClick={()=> addfavorites(id)} 
+          return <span id="nameItem-span"><button onClick={()=> addfavorites(id)} 
           style={getStyle()}>{nameObj.name}</button>
            </span> 
 }

@@ -21,15 +21,9 @@ class Tabs extends Component {
   }
 
   render() {
-    const {
-      onClickTabItem,
-      props: {
-        children,
-      },
-      state: {
-        activeTab,
-      }
-    } = this;
+    console.log(this.state.activeTab)
+
+    const { onClickTabItem, props: { children, }, state: {  activeTab, } } = this;
 
     return (
       <div className="tabs">
@@ -38,12 +32,7 @@ class Tabs extends Component {
             const { label } = child.props;
 
             return (
-              <Tab
-                activeTab={activeTab}
-                key={label}
-                label={label}
-                onClick={onClickTabItem}
-              />
+              <Tab activeTab={activeTab} key={label} label={label} onClick={onClickTabItem} />
             );
           })}
         </ol>

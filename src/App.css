@@ -63,11 +63,12 @@
     box-shadow: 1px 3px 10px black;}
 .projComp:hover { background-color: rgba(255,255,255,0.95); }
 #title{ color: green; margin-top: 150px; font-size: 24px; font-weight: bold; }
-.tabs{ background-color: rgba(255,255,255,0.8); }
+
+.tabs{background-color: rgba(255,255,255,0.8);}
 
 .tab-list {
     padding: 0;
-    margin-bottom: 0px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -85,7 +86,8 @@
   .tab-list-active {
     font-weight: bold;
     border-bottom: 3px #3a8905 solid;}
-/*for one to display an object over the other use table header and footer */
+
+    
 
 .totems{ padding: 0; display: flex; overflow-x: scroll; overflow-y: hidden }
 /*.name-body{display: table-header-group;}*/
@@ -178,16 +180,12 @@ strong{color: green}
     margin: 50px auto 50px;
 }*/
 
+#nameItem-span{ margin: 0 1px; padding-bottom: 2px; border-radius: 20px; }
+#nameItem-span:hover{ border: 2px green solid;  }
 
 
-#nameItem-span{
-    margin: 0;
-}
-section
-{
-    padding:  5px 50px;
-    border-radius: 2px;
-}
+
+section{ padding:  5px 50px; border-radius: 2px; }
 
 
 

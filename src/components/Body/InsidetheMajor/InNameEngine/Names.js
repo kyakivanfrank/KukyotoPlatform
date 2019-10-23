@@ -2,13 +2,28 @@ import React from 'react';
 
 import NameItem  from './NameItem';
 
-export default ({ filtered, addfavorites })=> {
+class Names extends React.Component{
+
+constructor(props){
+    super(props);
+    this.state = { nameObj : this.props.filtered.map(TotemsNameList => TotemsNameList
+        .map(nameObj => nameObj ))
+
+    }
+}
 
 
- return filtered.map(TotemsNameList => TotemsNameList
-  .map(nameObj =>  < NameItem key={ TotemsNameList.indexOf( nameObj ) } id={TotemsNameList.indexOf( nameObj ) }  addfavorites={addfavorites} filtered={filtered}  nameObj={nameObj} /> ))
- 
-  }
+render(){
+
+    return (
+    this.props.filtered.map(TotemsNameList => TotemsNameList
+        .map(nameObj =>  < NameItem key={ TotemsNameList.indexOf( nameObj ) } id={TotemsNameList.indexOf( nameObj ) } 
+         addfavorites={this.props.addfavorites} filtered={this.props.filtered}  nameObj={nameObj} /> ))
+    )
+}
+
+}
+export default Names;
   
 
  

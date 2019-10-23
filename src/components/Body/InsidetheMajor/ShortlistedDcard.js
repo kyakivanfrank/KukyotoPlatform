@@ -8,6 +8,7 @@ export default ({favorites, filtered}) => {
     favorites.pop(favorites.length)
     }
  // this art is going to be so technical needs alot of knowhow
+ // about this please refer from the vvumvula book. 
     const chosenName = favorites.map( id => {
         const chosen = filtered[id];
         return <DcardItem  erinnya={chosen.erinnya} boy={chosen.boy} omuziro={chosen.omuziro} akabbiro={chosen.akabbiro} 

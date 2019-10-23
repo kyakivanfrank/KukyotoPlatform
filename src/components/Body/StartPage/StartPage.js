@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ()=><div className="container main-tasks" >
+export default ()=> <div className="container main-tasks" >
 <h3 id="heading">Emirimu gyaffe</h3>
 
 <div className="components">
