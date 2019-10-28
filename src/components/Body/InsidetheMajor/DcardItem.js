@@ -1,6 +1,6 @@
 import React from "react";
 
- export default ({ boy, name, TotemName, TotemKabiro, TotemPic, KabiroPic, Mukuluwekika, TotemMasiga, TotemEmirimu, Omubala}) => {
+ export default ({ boy, name, TotemName, NameDescription, TotemKabiro, TotemPic, KabiroPic, Mukuluwekika, TotemMasiga, TotemEmirimu, Omubala}) => {
 
     return <div className="card-body">
     <div className="imgDiv">
@@ -9,11 +9,14 @@ import React from "react";
 
 <div className="akabiroDiv">
    <h4 id="akabiro" >{TotemKabiro}</h4>
-<img className="akabiroimg " src={KabiroPic} alt="TotemName"/>
+<img className="akabiroimg " src={KabiroPic} alt="totemName"/>
 </div>
   <div className="card-data">
   <h1 id="nam" style={{fontWeight: "bolder", color: boy ? 'lightblue':'pink' }}>{name}</h1>
    <h3 id="omuziroCardName">{TotemName}</h3>
+
+   <h3 id="nameDescr">{name} {NameDescription}</h3>
+
 
    <button id="ebirala" className="btn btn-link">ebirala</button>
    <h3 id="omubalaCard"> " {Omubala} "</h3>
