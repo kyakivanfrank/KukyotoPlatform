@@ -16,7 +16,7 @@ render(){
         <div className="totems">
         { this.state.totems.map( totem => { return <TotemItem key={ this.state.totems.indexOf(totem) } totem={totem}  /> }) }
         </div> 
-        < NameEngine totems={this.state.totems}/>
+        <NameEngine totems={this.state.totems} />
         </div>
 
     )

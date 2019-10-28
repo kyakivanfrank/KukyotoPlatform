@@ -20,9 +20,8 @@ class App extends React.Component
   }
 
   render (){
-return <div >
+return <div>
 <Navigation />
-
   <BrowserRouter>
   <Switch >
 <Route  exact path="/" component={ StartPage }/>

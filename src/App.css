@@ -130,7 +130,7 @@ p{ justify-content: all;}
 
 .donation{ padding: 10px; border: 2px lightgreen solid; margin: 5px;}
 
-.subscriptionForm{margin: 0 0 50px 100px; background-color: lightgreen; max-width: 300px; padding: 10px; border-radius: 5px}
+.subscriptionForm{ margin: 20px 0; background-color: black;  padding: 5px;}
 
 #phnnumbers{
     padding: 5px;
@@ -160,6 +160,8 @@ p{ justify-content: all;}
 *{
     font: 400 16px/1.6 Rubik, sans-serif;
 }
+
+
 
 body{
     background-image: url("./components/img/mpologoma.jpg");

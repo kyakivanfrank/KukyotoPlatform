@@ -1,6 +1,6 @@
  import  Picture  from "../components/img/check1.png";
  import  enkima  from "../components/img/enkima.jpg";
- import NjazaPic  from "../components/img/enkima.jpg";
+ import NjazaPic  from "../components/img/mpologom.jpg";
 
 const datalist ={
 	FirebaseTotemsData:
