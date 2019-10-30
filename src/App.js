@@ -25,7 +25,8 @@ return <div>
   <BrowserRouter>
   <Switch >
 <Route  exact path="/" component={ StartPage }/>
-<Route  exact path="/Major" component={ Major }/>
+<Route  exact path="/Major" component={ Major }/> {/*about routing tabs in the you'll try using the render attribute in the routes/ 
+ check more from the vvumbula react book*/}
 </Switch>
 </BrowserRouter>
 

@@ -6,6 +6,11 @@
 
 .container{ width: 100%; margin: 0 auto; }
 #devpic{width: 20%; min-height: 210px; border-radius: 100%; }
+.projComp{min-width: 45%}
+.components{ width: 70%; margin: 0 auto; }
+
+
+
 .flexa{ padding: 30px 0 30px 0; display: flex; }
  #adboard{  min-height: 400px; }
  .NamesBinder{ display: flex; }
@@ -30,7 +35,6 @@
 @media only screen and ( min-width: 768px){
 .container{ width: 80%; margin: 0 auto; }
 .components{ display: flex; }
-.projComp{width: 100%}
 .no-skew{width: 80%;}
 #devpic{ min-width: 40%; height: 110px; border-radius: 100%; }
 .Devs{display: flex;}
@@ -39,7 +43,7 @@
 .footing{background-color: darkgreen;}
 .footerData{display: flex;}
 .footerparts{ margin: 20px 0px 10px; width: 30%; color: orange; font-size: 12px; }
-.imgDiv{ /*width: 115%;*/  min-height: 130%;  }
+.imgDiv{ /*width: 115%;*/ min-height: 130%; }
 .cardimg{ margin-top: -10px }
 .tab-list { max-width: 75%; margin: 0 auto; }
 
@@ -55,14 +59,14 @@
  .projComp{
     border: none;
     background-color: rgba(255,255,255,0.99);
-    padding: 20px;
+    padding: 0px;
     margin: 10px 10px 10px;
     max-width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 1px 3px 10px black;}
 .projComp:hover { background-color: rgba(255,255,255,0.95); }
-#title{ color: green; margin-top: 150px; font-size: 24px; font-weight: bold; }
+#title{ color: green; margin-top: 115px; font-size: 24px; font-weight: bold; }
 
 .tabs{background-color: rgba(255,255,255,0.8);}
 
@@ -130,7 +134,7 @@ p{ justify-content: all;}
 
 .donation{ padding: 10px; border: 2px lightgreen solid; margin: 5px;}
 
-.subscriptionForm{ margin: 20px 0; background-color: black;  padding: 5px;}
+.subscriptionForm{ margin: 0px 0; background-color: black;  padding: 2px;}
 
 #phnnumbers{
     padding: 5px;
@@ -174,8 +178,8 @@ body{
 strong{color: green}
 
 
-.subscrInput
-{ border: 3px green solid; height: 40px; border-radius: 5px; margin: 5px; }
+.subscrInput{ border: 3px green solid; height: 30px; border-radius: 5px; margin: 5px; }
+#subscrBtn{ height: 30px; padding-top: 3px; }
 
 /*.flexa{
     display: flex;
@@ -204,7 +208,7 @@ section{ padding:  5px 50px; border-radius: 2px; }
     background-color: rgba(255,255,255,0.99);
     height: 150px;
     /*box-shadow: 1px 1px 1px lightgreen;*/
-    border-bottom:10px rgba(255,165,0,0.7) solid;
+    border-bottom:5px rgba(255,165,0,0.7) solid;
 }
 #rotated-div:hover
 {
@@ -229,19 +233,17 @@ section{ padding:  5px 50px; border-radius: 2px; }
 
 .main-tasks{
 
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 
 
-#heading
-{
-font-size: 18px;
-    max-width: 630px;
-    margin: 10px auto 10px auto;
-    text-shadow: 2px 2px 1px black;
+#heading{ font-size: 35px; font-family: Rockwell; max-width: 650px; margin: 0px 10px; text-shadow: 2px 2px 1px black; }
+#subheading{ font-size: 15px; max-width: 500px; color: orange; padding: 15px 15px; max-width: 550px; background-color: rgba(0,0,0,0.7); border-radius: 20px;}
+    .headingContainer{padding: 40px 0}
+        
 
-}
+
 
 
 .flexa {margin-top: 130px;}

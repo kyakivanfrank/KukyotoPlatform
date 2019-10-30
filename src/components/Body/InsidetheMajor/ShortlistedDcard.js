@@ -11,7 +11,9 @@ export default ({favorites, filtered}) => {
  // about this please refer from the vvumvula book. 
     const chosenName = favorites.map( id => {
         const chosen = filtered[id];
-        return <DcardItem NameDescription ={chosen.NameDescription} name={chosen.name} boy={chosen.boy} TotemName={chosen.TotemName}
+console.log(id)
+
+        return <DcardItem NameDescription={chosen.NameDescription} name={chosen.name} boy={chosen.boy} TotemName={chosen.TotemName}
         TotemKabiro={chosen.TotemKabiro} TotemPic={chosen.TotemPic} KabiroPic={chosen.KabiroPic} Mukuluwekika={chosen.Mukuluwekika}
          TotemMasiga={chosen.TotemMasiga} TotemEmirimu={chosen.TotemEmirimu} Omubala={chosen.Omubala} />
     })
