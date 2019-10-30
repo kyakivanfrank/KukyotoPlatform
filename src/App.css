@@ -208,7 +208,7 @@ section{ padding:  5px 50px; border-radius: 2px; }
     background-color: rgba(255,255,255,0.99);
     height: 150px;
     /*box-shadow: 1px 1px 1px lightgreen;*/
-    border-bottom:5px rgba(255,165,0,0.7) solid;
+    /*border-bottom:5px rgba(255,165,0,0.7) solid;*/
 }
 #rotated-div:hover
 {
@@ -233,14 +233,14 @@ section{ padding:  5px 50px; border-radius: 2px; }
 
 .main-tasks{
 
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 
 
-#heading{ font-size: 35px; font-family: Rockwell; max-width: 650px; margin: 0px 10px; text-shadow: 2px 2px 1px black; }
-#subheading{ font-size: 15px; max-width: 500px; color: orange; padding: 15px 15px; max-width: 550px; background-color: rgba(0,0,0,0.7); border-radius: 20px;}
-    .headingContainer{padding: 40px 0}
+#heading{ font-size: 35px; font-family: Rockwell; max-width: 650px; margin: 10px 10px; text-shadow: 2px 2px 1px black; }
+#subheading{ font-size: 18px; font-family: Meiryo UI; color: darkorange; padding: 15px 15px; max-width: 800px; background-color: rgba(0,0,0,0.7); border-radius: 20px;}
+    .headingContainer{padding: 20px 0}
         
 
 
@@ -301,14 +301,17 @@ height: 100px;
 
 .donate-btn
 {
-    border-radius: 5px;
-    border: none;
+    border-radius: 20px;
     background-color: orange;
-    padding: 12px;
-    max-width:300px;
-    float: right;
-    margin: 20px 0 0 0;
 }
+
+.donate-btn:hover
+{
+    background-color: darkorange;
+    font-weight: bold;
+
+}
+
 
 
 
