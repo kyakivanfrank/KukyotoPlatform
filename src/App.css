@@ -6,10 +6,8 @@
 
 .container{ width: 100%; margin: 0 auto; }
 #devpic{width: 20%; min-height: 210px; border-radius: 100%; }
-.projComp{min-width: 45%}
+.projComp{min-width: 45%;}
 .components{ width: 70%; margin: 0 auto; }
-
-
 
 .flexa{ padding: 30px 0 30px 0; display: flex; }
  #adboard{  min-height: 400px; }
@@ -24,6 +22,7 @@
 .cardimg { /*max-width: 25%;*/ }
 #Card-cont{ max-width: 300px; }
 .tab-list { width: 60%; }
+
 
 
 
@@ -46,6 +45,8 @@
 .imgDiv{ /*width: 115%;*/ min-height: 130%; }
 .cardimg{ margin-top: -10px }
 .tab-list { max-width: 75%; margin: 0 auto; }
+.subscrForm{ display: flex; }
+
 
 
 
@@ -59,14 +60,14 @@
  .projComp{
     border: none;
     background-color: rgba(255,255,255,0.99);
-    padding: 0px;
+    padding: 0 20px;
     margin: 10px 10px 10px;
     max-width: 100%;
-    height: 200px;
+    height: 190px;
     border-radius: 10px;
     box-shadow: 1px 3px 10px black;}
 .projComp:hover { background-color: rgba(255,255,255,0.95); }
-#title{ color: green; margin-top: 115px; font-size: 24px; font-weight: bold; }
+#title{ color: green; margin-top: 90px; font-size: 24px; font-weight: bold; }
 
 .tabs{background-color: rgba(255,255,255,0.8);}
 
@@ -77,19 +78,21 @@
 }
 
 .tab-list-item {
-    background: none;
+    /*background: none;*/
     border: none;
   list-style: none;
   padding: 0.3rem 1.5rem;
-  color: #3a8905;}
+  color: #3a8905;
+}
 
   .tab-list-item:hover{
     background: #87a841;
   color: #ffffff; }
 
   .tab-list-active {
+    border: none;
     font-weight: bold;
-    border-bottom: 3px #3a8905 solid;}
+    border-bottom: 3px orange solid;}
 
     
 
@@ -111,9 +114,12 @@
 #akabiro{ padding: 40px 5px 0px; /*float: right;*/ color: #87a841; font-weight: bold; font-size: 15px; width: 120px; }
 .akabiroimg{ width: 70px; border-radius: 90%; border: 3px white solid; position: relative; }
 .names-widget{/*height: 460px; */padding: 10px 10px; background-color: rgba(255,255,255, 0.8); margin-bottom: 20px; }
-.aboutSection{ padding: 10px 0px 30px; width: 100%; background-color: rgba(255,255,255,0.99); box-shadow: 1px 1px 30px black; transform: skewY(2deg);  margin-bottom: 60px; }
+.aboutSection{ padding: 10px 0px 30px; width: 100%; 
+	background-color: #ffffff;
+    /*background: linear-gradient(to bottom, lightgreen,darkgreen,darkgreen,darkgreen);*/
+     box-shadow: 1px 1px 30px black; transform: skewY(2deg);  margin-bottom: 60px; }
 .devSection{ padding: 10px 0px 30px; width: 100%; background-color: rgba(255,255,255,0.99); /*box-shadow: 1px 1px 30px black;*/ /*transform: skewY(2deg);*/  margin-bottom: 60px; }
-.no-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
+.no-skew{ transform: skewY(-2deg); margin: 0px auto 20px; }
 .dev-skew{ transform: skewY(-2deg); margin: 30px auto 30px; }
 
  #adboard{ margin: 0 0 20px 0; height: 200px; background-color: white; }
@@ -124,7 +130,7 @@
 #devpic{ max-width: 50%; border-radius: 100%; transform: skewX(2deg)}
 .devbox{ padding: 10px; border: 1px green solid; margin: 5px 2px;  }
 .devstats{ margin: 20px 0 0 10px; max-height: 20px; }
-.devProBox{  height: 100px; padding:12px 2px; }
+.devProBox{ padding: 12px 2px; }
 #devParagraph{margin: 15px 5px;}
 #professions{ font-size: 12px; font-weight: bold; color: #ffffff; background-color: lightblue; margin: 5px 2px; padding: 5px; border-radius: 10px; }
 p{ justify-content: all;}
@@ -134,7 +140,8 @@ p{ justify-content: all;}
 
 .donation{ padding: 10px; border: 2px lightgreen solid; margin: 5px;}
 
-.subscriptionForm{ margin: 0px 0; background-color: black;  padding: 2px;}
+.subscriptionForm{ background-color: black; padding: 2px;}
+#subscrMessage{ padding: 3px; color: orange; font-size: 14px;}
 
 #phnnumbers{
     padding: 5px;
@@ -168,14 +175,15 @@ p{ justify-content: all;}
 
 
 body{
-    background-image: url("./components/img/mpologoma.jpg");
+    background-image: url("./components/img/nsenene.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-strong{color: green}
+strong{color: darkorange}
+strong:hover{color: orange}
 
 
 .subscrInput{ border: 3px green solid; height: 30px; border-radius: 5px; margin: 5px; }
@@ -232,8 +240,8 @@ section{ padding:  5px 50px; border-radius: 2px; }
 
 
 .main-tasks{
-
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -315,11 +323,11 @@ height: 100px;
 
 
 
-.about{margin-right: 50px }
+/*.about{margin-right: 50px }*/
 
 
- 
- .mzirochippic{
+
+  .mzirochippic{
     border-radius: 60%;
     width: 40px; 
 }
@@ -340,11 +348,10 @@ height: 100px;
     height: 65px;
 }
 
-.green-colored{
+/*.green-colored{
     color: #3a8905;
     font-weight: bold;
-    /*height: 5px;*/
-
+    height: 5px;
 }
 
 .green-colored:hover{
@@ -352,7 +359,7 @@ height: 100px;
     font-size: 15px;
 
 }
-
+*/
 .totem-btn:hover
 {
     padding-bottom: 5px;
@@ -456,19 +463,18 @@ margin: 5px 0 15px 40px;
     padding: 2px;
 }
 
-#clicked-Name:hover{
-
-font-size: 15px
-}
-
-
+#clicked-Name:hover{font-size: 15px}
 
 #inputbox{
     height: 25px;
     background-color: #ffffff;
     color: #3a8905;
     margin: 0px 0px 5px;
-    border: 3px  #87a841 solid;
+    border: 3px  orange solid;
+}#inputbox:hover{
+    border: 3px #3a8905 solid;
+    margin: -5px 0px 5px;
+    height: 30px;
 }
 
 

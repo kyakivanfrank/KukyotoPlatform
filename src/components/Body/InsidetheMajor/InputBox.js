@@ -25,6 +25,7 @@ class Inputbox extends React.Component {
       <form >
       <input id="inputbox" className="form-control"
        addkeys={this.state.keystrokes} 
+       placeholder="wandiika wano ..."
        type="text"
       onChange = {this.onChange}/>
       </form>
