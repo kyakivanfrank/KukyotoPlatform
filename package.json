@@ -2,11 +2,16 @@
   "name": "reacttodoapp",
   "version": "0.1.0",
   "private": true,
+"engine":{
+  "npm": "6.4.1",
+  "node":"v10.15.3"
+},
   "dependencies": {
     "firebase": "^7.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.0.1",
+    "react-router-dom":"v5..1.2",
     "reactstrap": "^8.0.1"
   },
   "scripts": {
