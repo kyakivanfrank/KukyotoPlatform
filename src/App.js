@@ -13,12 +13,6 @@ import Devsection from "./components/Body/Devsection";
 
 class App extends React.Component
 {
-  constructor(props)
-  {
-    super(props);
-    this.state ={}
-  }
-
   render (){
 return <div>
 <Navigation />
