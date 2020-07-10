@@ -1,12 +1,7 @@
 {
-  "name": "Kukyoto",
+  "name": "Kukyoto-Platform",
   "version": "0.1.0",
   "private": true,
-
-"engine":{
-  "npm": "6.4.1",
-  "node": "v10.15.3"
-},
 
   "dependencies": {
     "firebase": "^7.0.0",
